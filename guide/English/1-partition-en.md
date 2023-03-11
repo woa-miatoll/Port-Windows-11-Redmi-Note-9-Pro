@@ -38,12 +38,6 @@ Go to TWRP settings and unmount all partitions
 adb shell
 ```
 
-#### Resize the partition table
-> So that the Windows partitions can fit
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
-
 #### Start parted
 ```sh
 parted /dev/block/sda
@@ -54,58 +48,57 @@ parted /dev/block/sda
 > You can make sure that 32 is the userdata partition number by running
 >  `print all`
 ```sh
-rm 32
+rm 18
 ```
 
 #### Create partitions
 > If you get any warning message telling you to ignore or cancel, just type i and enter
 
 <details>
-<summary><b><strong>For 128GB Models</strong></b></summary>
+<summary><b><strong>For 64GB Models</strong></b></summary>
 
-
-
-- Create Android's data partition
+- Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
-mkpart userdata ext4 11.8GB 68.6GB
+mkpart esp fat32 11GB 11.4GB
 ```
 
 - Create the main partition where Windows will be installed to
 ```sh
-mkpart win ntfs 68.6GB 126GB
+mkpart win ntfs 11.4GB 42.4GB
+```
+  
+- Create Android's data partition
+```sh
+mkpart userdata ext4 42.4GB 59.4GB
 ```
 
-- Create the ESP partition (stores Windows bootloader data and EFI files)
-```sh
-mkpart esp fat32 126GB 127GB 
-```
   </summary>
 </details>
 
 <details>
-<summary><b><strong>For 256GB Models</strong></b></summary>
+<summary><b><strong>For 128GB Models</strong></b></summary>
 
 
-- Create Android's data partition
+- Create the ESP partition (stores Windows bootloader data and EFI files)
 ```sh
-mkpart userdata ext4 11.8GB 134.6GB
+mkpart esp fat32 11GB 11.4GB
 ```
 
 - Create the main partition where Windows will be installed to
 ```sh
-mkpart win ntfs 134.6GB 254GB
+mkpart win ntfs 11.4GB 65.4GB
 ```
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
+  
+- Create Android's data partition
 ```sh
-mkpart esp fat32 254GB 255GB
+mkpart userdata ext4 65.4GB 123GB
 ```
   </summary>
 </details>
 
 #### Make ESP partiton bootable so the EFI image can detect it
 ```sh
-set 34 esp on
+set 18 esp on
 ```
 
 #### Quit parted
