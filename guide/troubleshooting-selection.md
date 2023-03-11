@@ -9,6 +9,3 @@
 
 - [English](English/troubleshooting-en.md)
 - [Español](Español/solucionar-problemas.md)
-- [Русский](Russian/troubleshooting-ru.md)
-- [Українська](Ukrainian/troubleshooting-uk.md)
-- [Lietuvių](Lithuanian/troubleshooting-lt.md)
