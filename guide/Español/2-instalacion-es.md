@@ -9,9 +9,9 @@
 ### Requisitos Previos
 
 - [Windows para ARM (Windows 11 es el recomendado)](https://uupdump.net/)
-- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
+- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Release)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/Icesito68/7xx-Drivers)
 
 ## Pasar las herramientas necesarias:
 ```cmd
