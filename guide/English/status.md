@@ -1,34 +1,34 @@
-<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
 
-# Running Windows on the POCO X3 Pro
+# Running Windows on the Redmi Note 9 Pro
 
 ## Project Status
 
-Beta. Most of the hardware works, but some components do not work yet.
+Alpha. The next thing is to get the USB in Windows
 
 #### Features
 
-- [ ] Audio ```Only by USB or Bluetooth```
-- [x] Battery status
-- [x] Bluetooth
-- [x] Brightness
+- [ ] Audio 
+- [ ] Battery status
+- [ ] Bluetooth
+- [ ] Brightness
 - [ ] Camera
-- [ ] Charging ```Only slow charging now```
+- [ ] Charging 
 - [x] Display
-- [x] GPU
-- [x] LTE ```Only SIM1; requires provisioning on every boot```
-- [x] SD ```Need to unplug and plug many times to get the SD Card detected```
-- [x] Touchscreen ```Need off on display after boot```
+- [ ] GPU
+- [ ] LTE 
+- [ ] SD 
+- [ ] Touchscreen 
 - [x] UFS
-- [x] USB ```PD hub needed```
-- [x] Wi-Fi
+- [ ] USB driver in theory is ready
+- [ ] Wi-Fi
 
 #### Sensors (Need to provision after installing Windows)
-- [x] Accelerometer
+- [ ] Accelerometer
 - [ ] Fingerprint
-- [x] GPS
-- [x] Gyroscope
-- [x] Light sensor
-- [x] Magnetometer
-- [x] Proximity
+- [ ] GPS
+- [ ] Gyroscope
+- [ ] Light sensor
+- [ ] Magnetometer
+- [ ] Proximity
