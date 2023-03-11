@@ -25,8 +25,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project Status](guide/status-selection.md)
 
-- [Troubleshooting](guide/troubleshooting-selection.md)
-
 - [Driver updating instructions](guide/driver-updating-selection.md)
 
 ## Contributors
