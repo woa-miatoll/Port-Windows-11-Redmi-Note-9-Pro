@@ -14,12 +14,12 @@ Alfa. Lo próximo es conseguir el USB en Windows
 - [ ] Bluetooth
 - [ ] Brillo
 - [ ] Cámara
-- [ ] Carga ```Solo carga lenta por ahora```
+- [ ] Carga 
 - [x] Pantalla
 - [ ] GPU
-- [ ] LTE ```Solo la SIM1; necesita ponerse en cada arranque```
-- [ ] SD ```Hace falta conectar y desconectar la microSd muchas veces para que la detecte```
-- [ ] Táctil ```Necesita que apagues y enciendas la pantalla después de cada reinicio```
+- [ ] LTE 
+- [ ] SD 
+- [ ] Táctil 
 - [x] UFS
 - [ ] USB ```El driver en teoría está listo```
 - [ ] WiFi
