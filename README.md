@@ -29,7 +29,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Contributors
 
-[<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="degdag" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22778181?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/degdag)
