@@ -39,11 +39,6 @@ adb shell
 chmod +x /sbin/*
 ```
 
-### Redimensionar la tabla de particiones
-> para que las particiones de Windows entren
-```sh
-sgdisk --resize-table 64 /dev/block/sda
-```
 
 ### Iniciar parted
 ```sh
@@ -55,59 +50,62 @@ parted /dev/block/sda
 >Para asegurarte de que la partición 32 es userdata puedes usar
 >  `print all`
 ```sh
-rm 32
+rm 18
 ```
 
 ### Crear particiones
 > Si recibes cualquier advertencia que te diga ignorar o cancelar, solo escribe i y dale a enter enter
 
 <details>
-<summary><b><strong>Para modelos de 128Gb</strong></b></summary>
+<summary><b><strong>Para modelos de 64Gb</strong></b></summary>
+  
+  - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
+```sh
+mkpart esp fat32 11GB 11.4GB
+```
+  
+- Creamos la partición principal donde instalaremos Windows
+```sh
+mkpart win ntfs 11.4GB 42.4GB
+```  
   
   
 - Creamos la partición de datos de Android
 ```sh
-mkpart userdata ext4 11.8GB 68.6GB
+mkpart userdata ext4 42.4GB 59.4GB
 ```
 
-- Creamos la partición principal donde instalaremos Windows
-```sh
-mkpart win ntfs 68.6GB 126GB
-```
-
-- Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
-```sh
-mkpart esp fat32 126GB 127GB 
-```
 
   </summary>
 </details>  
   
   
 <details>
-<summary><b><strong>Para modelos de 256Gb</strong></b></summary>
+<summary><b><strong>Para modelos de 128Gb</strong></b></summary>
   
 
-- Creamos la partición de datos de Android
+  - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 ```sh
-mkpart userdata ext4 11.8GB 134.6GB
+mkpart esp fat32 11GB 11.4GB
 ```
-
+  
 - Creamos la partición principal donde instalaremos Windows
 ```sh
-mkpart win ntfs 134.6GB 254GB
-```
-
-- Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
+mkpart win ntfs 11.4GB 42.4GB
+```  
+  
+  
+- Creamos la partición de datos de Android
 ```sh
-mkpart esp fat32 254GB 255GB
+mkpart userdata ext4 42.4GB 59.4GB
 ```
+  
   </summary>
 </details> 
 
 ### Hace a ESP la partición de arranque para que la imagen EFI pueda detectarla
 ```sh
-set 34 esp on
+set 18 esp on
 ```
 
 ### Salir de parted
