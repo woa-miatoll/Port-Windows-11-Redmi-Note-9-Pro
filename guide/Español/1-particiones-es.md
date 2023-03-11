@@ -91,13 +91,13 @@ mkpart esp fat32 11GB 11.4GB
   
 - Creamos la partición principal donde instalaremos Windows
 ```sh
-mkpart win ntfs 11.4GB 42.4GB
+mkpart win ntfs 11.4GB 65.4GB
 ```  
   
   
 - Creamos la partición de datos de Android
 ```sh
-mkpart userdata ext4 42.4GB 59.4GB
+mkpart userdata ext4 65.4GB 123GB
 ```
   
   </summary>
