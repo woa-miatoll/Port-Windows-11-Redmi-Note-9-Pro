@@ -11,9 +11,9 @@
 ### Prerequisites
 
 - [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
-- [UEFI image](https://github.com/degdag/edk2-msm/releases/latest)
+- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Release)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/Icesito68/7xx-Drivers)
 
 #### Execute the msc script
 
