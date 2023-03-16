@@ -69,39 +69,14 @@ assign letter=y
 exit
 ```
 
-  
-  
 
-### Install
-
-> Replace `<path/to/install.wim>` with the actual install.wim path,
-
-> `install.wim` is located in sources folder inside your ISO
-> You can get it either by mounting or extracting it
-
-```cmd
-dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
-```
-
-### Check what type of panel you have
-
-> Open cmd
-
-```cmd
-adb shell cat /proc/cmdline
-```
-> Look for `msm_drm.dsi_display0` almost at the bottom
-
-> If your device is `Tianma` `msm_drm.dsi_display0` will be `dsi_j20s_36_02_0a_video_display`
-
-> If your device is `Huaxing` `msm_drm.dsi_display0` will be `dsi_j20s_42_02_0b_video_display`, if it is, go to the drivers folder `Vayu-Drivers/components/QC8150/Device/DEVICE.SOC_QC8150.VAYU/Drivers/Touch/` and delete `j20s_novatek_ts_fw01.bin`, finally rename `j20s_novatek_ts_fw02.bin` to `j20s_novatek_ts_fw01.bin`
 
 ### Install Drivers
 
-> Replace `<vayudriversfolder>` with the location of the drivers folder
+> Replace `<miatollriversfolder>` with the location of the drivers folder
 
 ```cmd
-driverupdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
 ```
 
   
