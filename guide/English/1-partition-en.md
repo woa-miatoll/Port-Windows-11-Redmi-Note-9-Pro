@@ -9,7 +9,9 @@
 
 ### Prerequisites
 
-- [Modded TWRP](https://sourceforge.net/projects/mauronofrio-twrp/files/Curtana-Joyeuse-Gram-Excalibur/twrp-3.4.0-14-curtana-unified-mauronofrio.img/download)
+- [TWRP](https://sourceforge.net/projects/mauronofrio-twrp/files/Curtana-Joyeuse-Gram-Excalibur/twrp-3.4.0-14-curtana-unified-mauronofrio.img/download)
+
+- [OFOX](https://orangefox.download/es-ES/device/miatoll)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
