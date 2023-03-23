@@ -7,7 +7,7 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 
 ### Requisitos Previos
 
-- [TWRP/OFOX Modificados](../../../../releases/Recoveries)
+- [TWRP](https://sourceforge.net/projects/mauronofrio-twrp/files/Curtana-Joyeuse-Gram-Excalibur/twrp-3.4.0-14-curtana-unified-mauronofrio.img/download)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
