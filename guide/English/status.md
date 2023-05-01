@@ -24,7 +24,7 @@ Alpha. The next thing is to get the USB in Windows
 - [x] USB
 - [ ] Wi-Fi
 
-#### Sensors (Need to provision after installing Windows)
+#### Sensors
 - [ ] Accelerometer
 - [ ] Fingerprint
 - [ ] GPS
