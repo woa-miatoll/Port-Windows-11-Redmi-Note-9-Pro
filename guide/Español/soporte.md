@@ -24,7 +24,7 @@ Alfa. Lo próximo es conseguir el USB en Windows
 - [x] USB 
 - [ ] WiFi
 
-#### Sensores (Necesitan ponerse manualmente después de instalar Windows)
+#### Sensores
 - [ ] Acelerómetro
 - [ ] Sensor de huellas
 - [ ] GPS
