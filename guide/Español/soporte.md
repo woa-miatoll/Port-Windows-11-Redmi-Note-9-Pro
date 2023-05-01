@@ -21,7 +21,7 @@ Alfa. Lo próximo es conseguir el USB en Windows
 - [ ] SD 
 - [ ] Táctil 
 - [x] UFS
-- [ ] USB ```El driver en teoría está listo```
+- [x] USB 
 - [ ] WiFi
 
 #### Sensores (Necesitan ponerse manualmente después de instalar Windows)
