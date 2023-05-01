@@ -21,7 +21,7 @@ Alpha. The next thing is to get the USB in Windows
 - [ ] SD 
 - [ ] Touchscreen 
 - [x] UFS
-- [ ] USB driver in theory is ready
+- [x] 
 - [ ] Wi-Fi
 
 #### Sensors (Need to provision after installing Windows)
