@@ -11,18 +11,18 @@ Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosa
 
 - [ ] Audio 
 - [ ] Porcentaje de la batería
-- [ ] Bluetooth
+- [ ] Bluetooth ```En proceso```
 - [ ] Brillo
 - [ ] Cámara
 - [ ] Carga 
 - [x] Pantalla
-- [ ] GPU
+- [x] GPU
 - [ ] LTE 
 - [ ] SD 
-- [ ] Táctil 
+- [ ] Táctil ```En proceso```
 - [x] UFS
 - [x] USB 
-- [ ] WiFi
+- [ ] WiFi ```En proceso```
 
 #### Sensores
 - [ ] Acelerómetro
