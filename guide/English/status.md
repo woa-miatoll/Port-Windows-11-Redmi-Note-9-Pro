@@ -5,7 +5,7 @@
 
 ## Project Status
 
-Alpha. The next thing is to get the USB in Windows
+Alpha. It can already be used on Windows, but many things no work yet
 
 #### Features
 
