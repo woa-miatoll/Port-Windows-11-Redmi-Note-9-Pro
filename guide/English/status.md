@@ -11,18 +11,18 @@ Alpha. It can already be used on Windows, but many things no work yet
 
 - [ ] Audio 
 - [ ] Battery status
-- [ ] Bluetooth
+- [ ] Bluetooth ```In progress```
 - [ ] Brightness
 - [ ] Camera
 - [ ] Charging 
 - [x] Display
-- [ ] GPU
+- [x] GPU 
 - [ ] LTE 
 - [ ] SD 
-- [ ] Touchscreen 
+- [ ] Touchscreen ```In progress```
 - [x] UFS
 - [x] USB
-- [ ] Wi-Fi
+- [ ] Wi-Fi ```In progress```
 
 #### Sensors
 - [ ] Accelerometer
