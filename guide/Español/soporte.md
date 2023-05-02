@@ -5,7 +5,7 @@
 
 ## Estado del proyecto
 
-Alfa. Lo próximo es conseguir el USB en Windows
+Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosas
 
 #### Características
 
