@@ -16,7 +16,7 @@ Alpha. It can already be used on Windows, but many things no work yet
 - [ ] Camera
 - [ ] Charging 
 - [x] Display
-- [x] GPU 
+- [x] GPU ```for now it causes freezes sometimes```
 - [ ] LTE 
 - [ ] SD 
 - [X] Touchscreen ```Only for Tianma```
