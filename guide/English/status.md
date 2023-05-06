@@ -11,7 +11,7 @@ Alpha. It can already be used on Windows, but many things no work yet
 
 - [ ] Audio 
 - [ ] Battery status
-- [ ] Bluetooth ```In progress```
+- [x] Bluetooth 
 - [ ] Brightness
 - [ ] Camera
 - [ ] Charging 
