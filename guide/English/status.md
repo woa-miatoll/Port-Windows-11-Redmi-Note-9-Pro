@@ -19,7 +19,7 @@ Alpha. It can already be used on Windows, but many things no work yet
 - [x] GPU 
 - [ ] LTE 
 - [ ] SD 
-- [ ] Touchscreen ```In progress```
+- [X] Touchscreen ```Only for Tianma```
 - [x] UFS
 - [x] USB
 - [ ] Wi-Fi ```In progress```
