@@ -19,7 +19,7 @@ Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosa
 - [x] GPU
 - [ ] LTE 
 - [ ] SD 
-- [ ] Táctil ```En proceso```
+- [x] Táctil ```Solo para paneles Tianma```
 - [x] UFS
 - [x] USB 
 - [ ] WiFi ```En proceso```
