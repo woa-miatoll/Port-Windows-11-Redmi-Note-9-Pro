@@ -16,7 +16,7 @@ Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosa
 - [ ] Cámara
 - [ ] Carga 
 - [x] Pantalla
-- [x] GPU
+- [x] GPU ```Por ahora causa congelamientos a veces```
 - [ ] LTE 
 - [ ] SD 
 - [x] Táctil ```Solo para paneles Tianma```
