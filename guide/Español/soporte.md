@@ -11,7 +11,7 @@ Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosa
 
 - [ ] Audio 
 - [ ] Porcentaje de la batería
-- [ ] Bluetooth ```En proceso```
+- [x] Bluetooth 
 - [ ] Brillo
 - [ ] Cámara
 - [ ] Carga 
