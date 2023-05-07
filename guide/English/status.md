@@ -5,7 +5,7 @@
 
 ## Project Status
 
-Alpha. It can already be used on Windows, but many things no work yet
+Alpha. It can already be used on Windows, but many things no work yet, many of them are essential
 
 #### Features
 
