@@ -5,7 +5,7 @@
 
 ## Estado del proyecto
 
-Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosas
+Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosas, muchas de ellas son esenciales 
 
 #### Características
 
