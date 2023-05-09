@@ -22,7 +22,7 @@ Alpha. It can already be used on Windows, but many things no work yet, many of t
 - [X] Touchscreen ```Only for Tianma```
 - [x] UFS
 - [x] USB
-- [ ] Wi-Fi ```In progress```
+- [x] Wi-Fi 
 
 #### Sensors
 - [ ] Accelerometer
