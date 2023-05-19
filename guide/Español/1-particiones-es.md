@@ -19,7 +19,7 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 - Estos comandos han sido testeados.
 - Ignora las advertencias de `udevadm`
 - No ejecutes el mismo comando dos veces
-- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/+WC_0xnoaLRE5MTdl)
+- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/+S9ne8FTvuoU5M2M1)
 
 #### Arranca en TWRP desde el PC con este comando
 ```cmd
