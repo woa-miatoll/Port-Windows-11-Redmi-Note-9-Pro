@@ -15,7 +15,7 @@ Si quieres blooquear tu bootloader de nuevo necesitas la tabla de particiones st
 ### Requisitos Previos
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/binaries)
+- [gpt_both0.bin](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Binaries)
 
 ### Notes
 
