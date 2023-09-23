@@ -27,7 +27,7 @@ Alpha. It can already be used on Windows, but many things no work yet, many of t
 #### Sensors
 - [ ] Accelerometer
 - [ ] Fingerprint
-- [ ] GPS
+- [x] GPS
 - [ ] Gyroscope
 - [ ] Light sensor
 - [ ] Magnetometer

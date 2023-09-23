@@ -27,7 +27,7 @@ Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosa
 #### Sensores
 - [ ] Acelerómetro
 - [ ] Sensor de huellas
-- [ ] GPS
+- [x] GPS
 - [ ] Giroscopio
 - [ ] Sensor de luz
 - [ ] Magnetómetro
