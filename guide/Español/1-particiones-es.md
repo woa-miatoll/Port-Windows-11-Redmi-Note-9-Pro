@@ -7,9 +7,7 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 
 ### Requisitos Previos
 
-- [TWRP](https://sourceforge.net/projects/mauronofrio-twrp/files/Curtana-Joyeuse-Gram-Excalibur/twrp-3.4.0-14-curtana-unified-mauronofrio.img/download)
-
-- [OFOX](https://orangefox.download/es-ES/device/miatoll)
+- [OFOX Modificado](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -19,42 +17,28 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 - Estos comandos han sido testeados.
 - Ignora las advertencias de `udevadm`
 - No ejecutes el mismo comando dos veces
-- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/+S9ne8FTvuoU5M2M1)
+- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/+ZZQCSx2n6Pk1M2Y9)
+
+#### ⚠️ ¡No ejecutes todos los comandos a la vez, ejecútalos en orden!
+
+##### ⚠️ ¡¡¡NO COMETAS NINGÚN ERROR!!! ¡¡¡PUEDES ROMPER TU DISPOSITIVO CON LOS COMANDOS A CONTINUACIÓN SI LOS HACES MAL!!!
 
 #### Arranca en TWRP desde el PC con este comando
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <ofox.img>
 ```
-> si tienes el TWRP instalado, solo presiona el botón de encendido y vol+ para iniciarlo
+> si tienes el OFOX modificado instalado, solo presiona el botón de encendido y vol+ para iniciarlo
 
 #### Desmonta todas las particiones
-Ve a mount en TWRP y desmonta todas las particiones
-
-## Pasar las herramientas necesarias:
-```cmd
-adb push parted /sbin
-```
-
-## Iniciar ADB shell
-```cmd
-adb shell
-```
-
-# Crear particiones
-#### Darle los permisos necesarios a la herramienta
-```sh
-chmod +x /sbin/*
-```
-
+Ve a mount en OFOX y desmonta todas las particiones
 
 ### Iniciar parted
 ```sh
-parted /dev/block/sda
+adb shell partition
 ```
 
-
 ### Borrar la partición `userdata` 
->Para asegurarte de que la partición 32 es userdata puedes usar
+>Para asegurarte de que la partición 18 es userdata puedes usar
 >  `print all`
 ```sh
 rm 18
@@ -115,12 +99,7 @@ mkpart userdata ext4 65.4GB 123GB
 set 18 esp on
 ```
 
-### Salir de parted
-```sh
-quit
-```
-
-### Reiniciar a TWRP
+### Reiniciar a OFOX
 
 ### Iniciar shell otra vez en tu PC
 ```cmd
@@ -130,20 +109,20 @@ adb shell
 ### Formatear las particiones
 -  Formatea la partición ESP en FAT32
 ```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp
+mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPMIATOLL
 ```
 
 -  Formatea la partición de Windows en NTFS
 ```sh
-mkfs.ntfs -f /dev/block/by-name/win
+mkfs.ntfs -f /dev/block/by-name/win -L WINMIATOLL
 ```
 
 - Formatea data
-Ve a Wipe en TWRP y presiona Format Data, 
+Ve a Wipe en OFOX y presiona Format Data, 
 después escribe `yes`.
 
 ### Comprueba si android inicia
 Solo reinicia el teléfono y comprueba si Android inicia
 
 
-## [Siguiente paso: Instalar Windows](/guide/Español/2-instalacion-es.md)
+## [Siguiente paso: Instalar Windows](2-instalacion-es.md)

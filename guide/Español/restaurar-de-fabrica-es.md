@@ -1,13 +1,11 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
 
-# Running Windows on the Redmi Note 9 Pro
+# Windows en el Redmi Note 9 Pro
 
-## Restaurar la tabla de particiones stock
+## Desinstalar
 
 ### ¿Por qué lo necesitamos?
-
-Si seguistes la guia vieja tus particiones serán algo diferentes y esto puede tener consecuencias si no restauras la tabla de particiones stock
 
 Si quieres desinstalar Windows usa esto para evitar el error humano evitar escribir una guia dedicada solo a desinstalar.
 

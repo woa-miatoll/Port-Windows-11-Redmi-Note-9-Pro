@@ -1,7 +1,7 @@
-<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
 
-# Windows en el POCO X3 Pro
+# Windows en el Redmi Note 9 Pro
 
 ## Dualboot entre Android y Windows
 
@@ -11,47 +11,11 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP/OFOX](../../../../releases/Recoveries)
+- [Orange Fox modificado](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
-- [NTFS Android Magisk Module](../../../../releases/ntfsdroid)
+- UEFI (En proceso)
 
-- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
 
-- [UEFI & Android Boot Flashing App](../../../../releases/dualboot)
+## Como instalar el Dual Boot
 
-### Preparar el teléfono
-
-#### Añadir soporte a NTFS en android
-
-- Installa Magisk si no lo tenías ya
-- Installa el módulo de NTFS Android en Magisk manager
-
-#### Preparar la aplicación
-
-- Instala el APK proporcionado
-- Crea una carpeta llamada "UEFI" en tu almacenamiento interno
-- Copie todas las imágenes uefi en esa carpeta con el esquema de nombres vayu-(panel)-(version).img
-- Abre la aplicación y dale todos los permisos de root que pida
-
-### Parte en el Pc
-
-#### Arrancar el recovery
-
-- Reinicia al bootloader
-
-- Pon ```fastboot boot <recovery.img>``` (Sustituye <recovery.img> por el recovery que elegiste)
-
-#### Transfiere algunos archivos al teléfono
-
-- Cuando el recovery inicie pon ```adb shell mount.ntfs /dev/block/by-name/win /win```
-- Pon ```adb shell dd if=/dev/block/by-name/boot of=/win/boot.img```
-- Pon ```adb push switchtoandroid.exe /win/Users/<username>/Desktop/switchtoandroid.exe``` (Sustituye <username> por el nombre de usuario de tu partición de windows)
-  
-#### Arrancar android
-  
-  - Abre switchtoandroid.exe en el teléfono como **ADMINISTRADOR**
-
-#### Arrancar windows
-  
-  - Abre la app
-  - Presisona "Quickboot to windows"
+- Muy  rápido, se está intentando portear con la UEFI de Renegade, por ahora, si estás conforme con tu custom rom, puedes instalar el boot en la partición de recovery e iniciar con los botones como normalmente cuando quieres iniciar el recovery

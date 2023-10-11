@@ -1,24 +1,24 @@
-<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
 
-# Windows en el POCO X3 Pro
+# Windows en el Redmi Note 9 Pro
 
 ## Actualizar Drivers
 
 ### Requisitos Previos
 
-- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
-- [TWRP/OFOX Modificado](../../../../releases/Recoveries)
+- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
+- [OFOX Modificado](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.0)
 
 #### Iniciar TWRP desde el pc con el comando
 
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <ofox.img>
 ```
 
-> Si ya tienes el TWRP instalado, solo presiona el botón de encendido y vol+ para iniciarlo
+> Si ya tienes el OFOX modificado instalado, solo presiona el botón de encendido y vol+ para iniciarlo
 
 
 #### Ejecutar el script
@@ -31,7 +31,7 @@ adb shell msc.sh
 
 #### Iniciar El Administrador De Discos De Windows
 
-> Cuando el X3 Pro sea detectado como disco
+> Cuando el Note 9 Pro sea detectado como disco
 
 ```cmd
 diskpart
@@ -41,7 +41,7 @@ diskpart
 ### Asignar la letra `X` a la partición de Windows
 
 #### Seleccione el volumen de Windows del teléfono
-> Usa `list vol` para encontrarlo, es el que se llama "WINVAYU"
+> Usa `list vol` para encontrarlo, es el que se llama "WINMIATOLL"
 
 ```diskpart
 sel vol <number>
@@ -60,13 +60,13 @@ exit
 
 ### Instalar Los Drivers
 
-> Reemplaza `<vayudriversfolder>` por la localización de la carpeta de los drivers
+> Reemplaza `<miatolldriversfolder>` por la localización de la carpeta de los drivers
 
 > Abre un cmd como administrador
 
 
 ```cmd
-DriverUpdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+DriverUpdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
 ```
 
 

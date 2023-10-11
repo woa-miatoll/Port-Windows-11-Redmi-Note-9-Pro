@@ -1,16 +1,16 @@
-<img align="right" src="https://github.com/wormstest/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
 
-# Running Windows on the POCO X3 Pro
+# Running Windows on the Redmi Note 9 Pro
 
 ## Driver updating
 
 ### Prerequisites
 
-- [UEFI](https://github.com/degdag/edk2-msm/releases/latest)
-- [Modded TWRP/OFOX](../../../../releases/Recoveries)
+- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
+- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/degdag/Vayu-Drivers/releases/latest)
+- [Drivers](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.0)
 
 #### Start TWRP recovery through the PC with the command
 
@@ -31,7 +31,7 @@ adb shell msc.sh
 
 #### Start the Windows disk manager
 
-> Once the X3 Pro is detected as a disk
+> Once the Note 9 Pro is detected as a disk
 
 ```cmd
 diskpart
@@ -41,7 +41,7 @@ diskpart
 ### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINVAYU"
+> Use `list volume` to find it, it's the one named "WINMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -60,13 +60,13 @@ exit
 
 ### Install Drivers
 
-> Replace `<vayudriversfolder>` with the location of the drivers folder
+> Replace `<miatolldriversfolder>` with the location of the drivers folder
 
 > Open cmd as administrator
 
 
 ```cmd
-DriverUpdater.exe -d <vayudriversfolder>\definitions\Desktop\ARM64\Internal\vayu.txt -r <vayudriversfolder> -p X:
+DriverUpdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
 ```
 
 

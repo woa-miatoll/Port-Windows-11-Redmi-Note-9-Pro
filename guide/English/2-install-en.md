@@ -10,25 +10,23 @@
 
 ### Prerequisites
 
-- [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
-- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Release)
+- [Windows on ARM image (Windows 11 is recommended)](https://uup.ee/)
+- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/Icesito68/7xx-Drivers)
+- [Drivers](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.0)
 
 #### Execute the msc script
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
-
-  
 
 ### Assign letters to disks
   
 
 #### Start the Windows disk manager
 
-> Once the X3 Pro is detected as a disk
+> Once the Note 9 Pro is detected as a disk
 
 ```cmd
 diskpart
@@ -38,7 +36,7 @@ diskpart
 ### Assign `X` to Windows volume
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINVAYU"
+> Use `list volume` to find it, it's the one named "WINMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -52,7 +50,7 @@ assign letter=x
 ### Assign `Y` to esp volume
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, it's the one named "ESPVAYU"
+> Use `list volume` to find it, it's the one named "ESPMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -69,8 +67,6 @@ assign letter=y
 exit
 ```
 
-
-
 ### Install Drivers
 
 > Replace `<miatollriversfolder>` with the location of the drivers folder
@@ -86,9 +82,6 @@ driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\m
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-  
-  
 
 ## Allow unsigned drivers
 

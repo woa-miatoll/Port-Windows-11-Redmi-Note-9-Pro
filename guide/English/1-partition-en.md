@@ -9,9 +9,7 @@
 
 ### Prerequisites
 
-- [TWRP](https://sourceforge.net/projects/mauronofrio-twrp/files/Curtana-Joyeuse-Gram-Excalibur/twrp-3.4.0-14-curtana-unified-mauronofrio.img/download)
-
-- [OFOX](https://orangefox.download/es-ES/device/miatoll)
+- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -21,33 +19,27 @@
 - These commands have been tested.
 - Ignore `udevadm` warnings
 - Do not run the same command twice
-- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/+S9ne8FTvuoU5M2M1)
+- DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/+ZZQCSx2n6Pk1M2Y9)
 
 #### ⚠️ Do not run all commands at once, execute them in order!
 
 ##### ⚠️ DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-##### Boot TWRP recovery through the PC with the command
+##### Boot OFOX recovery through the PC with the command
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <ofpx.img>
 ```
 
 #### Unmount all partitions
-Go to TWRP settings and unmount all partitions
-
-#### Start ADB shell
-```cmd
-adb shell
-```
+Go to OFOX settings and unmount all partitions
 
 #### Start parted
 ```sh
-parted /dev/block/sda
+adb shell partition
 ```
 
-
 #### Delete the `userdata` partition
-> You can make sure that 32 is the userdata partition number by running
+> You can make sure that 18 is the userdata partition number by running
 >  `print all`
 ```sh
 rm 18
@@ -103,12 +95,7 @@ mkpart userdata ext4 65.4GB 123GB
 set 18 esp on
 ```
 
-#### Quit parted
-```sh
-quit
-```
-
-#### Reboot to TWRP
+#### Reboot to OFOX
 
 #### Start the shell again on your PC
 ```cmd
@@ -118,12 +105,12 @@ adb shell
 #### Format partitions
 -  Format the ESP partiton as FAT32
 ```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
+mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPMIATOLL
 ```
 
 -  Format the Windows partition as NTFS
 ```sh
-mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
+mkfs.ntfs -f /dev/block/by-name/win -L WINMIATOLL
 ```
 
 - Format data
@@ -134,4 +121,4 @@ then type `yes`.
 Just restart the phone, and see if Android still works
 
 
-## [Next step: Installing Windows](/guide/English/2-install-en.md)
+## [Next step: Installing Windows](2-install-en.md)

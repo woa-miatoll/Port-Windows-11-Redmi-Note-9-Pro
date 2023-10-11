@@ -1,28 +1,28 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
 
 # Windows en el Redmi Note 9 Pro
 
 ## Estado del proyecto
 
-Alfa. Ya se puede usar en Windows, pero todavía queda que funcionen muchas cosas, muchas de ellas son esenciales 
+Alfa. Ya se puede usar Windows, pero todavía queda que funcionen muchas cosas, muchas de ellas son esenciales.
 
 #### Características
 
-- [ ] Audio 
+- [ ] Audio ```Parece que se puede conseguir, pero no ser fácil``
 - [ ] Porcentaje de la batería
 - [x] Bluetooth 
 - [ ] Brillo
 - [ ] Cámara
 - [ ] Carga 
 - [x] Pantalla
-- [x] GPU ```La bateria debe ser inferior al 85% para que no se congele```
+- [x] GPU ```Causa que el dispositivo se congele aleatoriamente```
 - [ ] LTE 
 - [ ] SD 
 - [x] Táctil ```Solo para paneles Tianma```
 - [x] UFS
 - [x] USB 
-- [x] WiFi 
+- [x] WiFi ```Tienes que instalarla manualmente después de iniciar Windows```
 
 #### Sensores
 - [ ] Acelerómetro

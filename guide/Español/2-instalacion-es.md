@@ -4,34 +4,26 @@
 # Windows en el Redmi Note 9 Pro
 
 # Instalar Windows
-> Necesitas tener el  MTP desactivado en Mount
+> Necesitas tener el  MTP desactivado
 
 ### Requisitos Previos
 
-- [Windows para ARM (Windows 11 es el recomendado)](https://uupdump.net/)
-- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Release)
+- [Windows para ARM (Windows 11 es el recomendado)](https://uup.ee/)
+- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/Icesito68/7xx-Drivers)
-
-## Pasar las herramientas necesarias:
-```cmd
-adb push msc.sh /sbin
-```
+- [Drivers](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.0)
 
 ### Ejecutar el script
-
 ```cmd
-adb shell sh /sbin/msc.sh
+adb shell msc
 ```
-
   
 
 ## Asignar letras a los discos
-  
 
 #### Arranca el administrador de discos de Windows
 
-> Cuando el X3 Pro sea detectado como un disco
+> Cuando el Note 9 Pro sea detectado como un disco
 
 ```cmd
 diskpart
@@ -41,7 +33,7 @@ diskpart
 ### Asignar letra `x` al volumen de Windows
 
 #### Selecciona el volumen de Windows del Teléfono
-> usa `list volume` para encontrarlo, normalmente es el penúltimo
+> usa `list volume` para encontrarlo, se llama "WINMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -55,7 +47,7 @@ assign letter=x
 ### Asinar `y` al volumen de esp 
 
 #### Selecciona el volumen de esp del teléfono
-> usa `list volume` para encontrarlo, normalmente es el último
+> usa `list volume` para encontrarlo, se llama "ESPMIATOLL"
 
 ```diskpart
 select volume <number>
@@ -71,8 +63,6 @@ assign letter=y
 ```diskpart
 exit
 ```
-
-  
   
 
 ## Instalar
@@ -89,7 +79,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Instalar los Drivers
 
-> reemplaza `<vayudriversfolder>` por la localización de la carpeta de drivers
+> reemplaza `<miatolldriversfolder>` por la localización de la carpeta de drivers
 
 > abre un cmd como Administrador
 
@@ -104,8 +94,6 @@ driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\m
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
-
-  
   
 
 # Permite los drivers no firmados
