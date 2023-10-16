@@ -34,7 +34,7 @@ Ve a mount en OFOX y desmonta todas las particiones
 
 ### Iniciar parted
 ```sh
-adb shell partition
+Adb shell parted /dev/block/sda
 ```
 
 ### Borrar la partición `userdata` 

@@ -18,7 +18,7 @@
 #### Execute the msc script
 
 ```cmd
-adb shell msc
+adb shell msc.sh
 ```
 
 ### Assign letters to disks

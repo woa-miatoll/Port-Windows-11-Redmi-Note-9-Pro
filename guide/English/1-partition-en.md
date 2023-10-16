@@ -35,7 +35,7 @@ Go to OFOX settings and unmount all partitions
 
 #### Start parted
 ```sh
-adb shell partition
+Adb shell parted /dev/block/sda
 ```
 
 #### Delete the `userdata` partition

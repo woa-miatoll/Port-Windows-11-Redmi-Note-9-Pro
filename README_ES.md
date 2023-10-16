@@ -13,7 +13,7 @@ No somos responsables de dispositivos bloqueados, particiones de recuperación e
 
 Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han sido aportados por otros usuarios, aquí encontrará una guía con los archivos que logramos obtener. Este es un proceso delicado, hazlo bajo tu propio riesgo y sigue todos los pasos cuidadosamente.
 
-SI NO SE SIENTE CÓMODO MODIFICANDO SU TELÉFONO O SU TABLA DE PARTICIONES O ESTÁ PARANOICO DE BRICKEAR SU DISPOSITIVO SALGA AHORA MISMO!!! USTED HA SIDO ADVERTIDO, USTED ESTÁ POR SU CUENTA SI BCRICKEA SU DISPOSITIVO!!! ¡DE NUEVO! ¡¡¡USTED HA SIDO ADVERTIDO!!!
+SI NO SE SIENTE CÓMODO MODIFICANDO SU TELÉFONO O SU TABLA DE PARTICIONES O ESTÁ PARANOICO DE BRICKEAR SU DISPOSITIVO SALGA AHORA MISMO!!! USTED HA SIDO ADVERTIDO, USTED ESTÁ POR SU CUENTA SI BRICKEA SU DISPOSITIVO!!! ¡DE NUEVO! ¡¡¡USTED HA SIDO ADVERTIDO!!!
 
 ## Comencemos
 

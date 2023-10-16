@@ -15,7 +15,7 @@
 
 ### Ejecutar el script
 ```cmd
-adb shell msc
+adb shell msc.sh
 ```
   
 
