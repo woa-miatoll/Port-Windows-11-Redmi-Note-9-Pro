@@ -67,6 +67,17 @@ assign letter=y
 exit
 ```
 
+## Install
+
+> replace `<path/to/Install.wim>` with the path of the install.wim file
+
+> `install.wim` is in the ISO sources folder
+> you can get it after mounting or extracting the ISO
+
+```cmd
+dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
+```
+
 ### Install Drivers
 
 > Replace `<miatollriversfolder>` with the location of the drivers folder
