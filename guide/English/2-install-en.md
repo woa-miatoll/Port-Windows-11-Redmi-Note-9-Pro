@@ -11,9 +11,9 @@
 ### Prerequisites
 
 - [Windows on ARM image (Windows 11 is recommended)](https://uup.ee/)
-- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
+- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.5)
+- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.9)
 
 #### Execute the msc script
 
