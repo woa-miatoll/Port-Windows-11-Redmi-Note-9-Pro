@@ -80,13 +80,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Install Drivers
 
-> Replace `<miatollriversfolder>` with the location of the drivers folder
-
-```cmd
-driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
-```
-
-  
+Open OfflineUpdater.bat file from the drivers folder and type X:
 
 ### Create Windows bootloader files for the EFI
 

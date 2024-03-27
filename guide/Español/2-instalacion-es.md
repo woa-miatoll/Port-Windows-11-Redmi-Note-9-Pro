@@ -79,15 +79,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 # Instalar los Drivers
 
-> reemplaza `<miatolldriversfolder>` por la localización de la carpeta de drivers
-
-> abre un cmd como Administrador
-
-```cmd
-driverupdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
-```
-
-  
+Abra el archivo OfflineUpdater.bat de la carpeta de controladores y escriba X:
 
 # Crear los archivos del bootloader de Windows 
 
