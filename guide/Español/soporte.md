@@ -12,14 +12,14 @@ Alfa. Ya se puede usar Windows, pero todavía queda que funcionen muchas cosas, 
 - [ ] Audio ```Parece que se puede conseguir, pero no ser fácil``
 - [ ] Porcentaje de la batería
 - [x] Bluetooth 
-- [ ] Brillo
+- [X] Brillo
 - [ ] Cámara
 - [ ] Carga 
 - [x] Pantalla
-- [x] GPU ```Causa que el dispositivo se congele aleatoriamente```
+- [x] GPU
 - [ ] LTE 
 - [ ] SD 
-- [x] Táctil ```Solo para paneles Tianma```
+- [x] Táctil
 - [x] UFS
 - [x] USB 
 - [x] WiFi ```Tienes que instalarla manualmente después de iniciar Windows```

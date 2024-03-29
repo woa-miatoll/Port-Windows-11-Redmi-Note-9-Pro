@@ -12,14 +12,14 @@ Alpha. It can already be used on Windows, but many things no work yet, many of t
 - [ ] Audio ```It seems that it can be achieved, but it is not easy```
 - [ ] Battery status
 - [x] Bluetooth 
-- [ ] Brightness
+- [X] Brightness
 - [ ] Camera
 - [ ] Charging 
 - [x] Display
-- [x] GPU ```Causes the device to freeze randomly``
+- [x] GPU
 - [ ] LTE 
 - [ ] SD 
-- [X] Touchscreen ```Only for Tianma```
+- [X] Touchscreen
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi ```You have to install it manually after starting Windows```
