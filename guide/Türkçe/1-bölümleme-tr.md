@@ -1,71 +1,71 @@
-  <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
+  <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro Üzerinde Çalışan Windows 11">
 
 
-# Running Windows on the Redmi Note 9 Pro
+# Redmi Note 9 Pro'da Windows Çalıştırma
 
-## Installation
+## Kurulum
 
-## Partitioning your device
+## Cihazınızı bölümlere ayırma
 
-### Prerequisites
+### Ön Koşullar
 
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-### Notes:
-> [!Warning]
-> All your data will be erased! Backup now if needed.
+### Notlar:
+> [!Uyarı]
+> Tüm verileriniz silinecek! Gerekirse şimdi yedekleyin.
 >
-> These commands have been tested.
+> Bu komutlar test edilmiştir.
 >
-> Ignore `udevadm` warnings
+> `udevadm` uyarılarını yoksay.
 >
-> Do not run the same command twice
+> Aynı komutu iki kez çalıştırmayın.
 >
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/+ZZQCSx2n6Pk1M2Y9)
+> Bir hata yaptığınızı düşünüyorsanız TELEFONUNUZU YENİDEN BAŞLATMAYIN, [Telegram sohbet](https://t.me/+ZZQCSx2n6Pk1M2Y9) adresinden yardım isteyin
 >
-> Do not run all commands at once, execute them in order!
+> Tüm komutları aynı anda çalıştırmayın, sırayla çalıştırın!
 >
-> DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
+> HİÇBİR HATA YAPMAYIN!!! AŞAĞIDAKİ KOMUTLARI YANLIŞ YAPARSANIZ CİHAZINIZI BOZABİLİRSİNİZ!!!
 
-##### Boot OFOX recovery through the PC with the command
+##### Bu komut ile PC üzerinden OFOX kurtarmayı önyükleyin
 ```cmd
 fastboot boot <ofpx.img>
 ```
 
-#### Unmount all partitions
-Go to OFOX settings and unmount all partitions
+#### Tüm bölümlerin bağlantısını kaldırın
+OFOX ayarlarına gidin ve tüm bölümlerin bağlantısını kaldırın
 
-#### Start parted
+#### Bölümlemeye başla
 ```sh
 Adb shell parted /dev/block/sda
 ```
 
-#### Delete the `userdata` partition
-> You can make sure that 18 is the userdata partition number by running
+#### `userdata` bölümünü silme
+> 18'in userdata bölüm numarası olduğundan emin olmak için şu komutu çalıştırabilirsiniz
 >  `print all`
 ```sh
 rm 18
 ```
 
-#### Create partitions
-> If you get any warning message telling you to ignore or cancel, just type i and enter
+#### Bölümleri oluştur
+> Görmezden gelmenizi veya iptal etmenizi söyleyen herhangi bir uyarı mesajı alırsanız, i yazıp enter tuşuna basmanız yeterlidir
 
 <details>
-<summary><b><strong>For 64GB Models</strong></b></summary>
+<summary><b><strong>64GB Modeller İçin</strong></b></summary>
 
-- Create the ESP partition (stores Windows bootloader data and EFI files)
+- ESP bölümünü oluşturun (Windows önyükleyici verilerini ve EFI dosyalarını depolar)
 ```sh
 mkpart esp fat32 11GB 11.4GB
 ```
 
-- Create the main partition where Windows will be installed to
+- Windows'un yükleneceği ana bölümü oluşturun
 ```sh
 mkpart win ntfs 11.4GB 42.4GB
 ```
   
-- Create Android's data partition
+- Android'in veri bölümünü oluşturun
 ```sh
 mkpart userdata ext4 42.4GB 59.4GB
 ```
@@ -74,55 +74,54 @@ mkpart userdata ext4 42.4GB 59.4GB
 </details>
 
 <details>
-<summary><b><strong>For 128GB Models</strong></b></summary>
+<summary><b><strong>128GB Modeller İçin</strong></b></summary>
 
 
-- Create the ESP partition (stores Windows bootloader data and EFI files)
+- ESP bölümünü oluşturun (Windows önyükleyici verilerini ve EFI dosyalarını depolar)
 ```sh
 mkpart esp fat32 11GB 11.4GB
 ```
 
-- Create the main partition where Windows will be installed to
+- Windows'un yükleneceği ana bölümü oluşturun
 ```sh
 mkpart win ntfs 11.4GB 65.4GB
 ```
   
-- Create Android's data partition
+- Android'in veri bölümünü oluşturun
 ```sh
 mkpart userdata ext4 65.4GB 123GB
 ```
   </summary>
 </details>
 
-#### Make ESP partiton bootable so the EFI image can detect it
+#### EFI görüntüsünün algılanabilmesi için ESP bölümünü önyüklenebilir hale getirin
 ```sh
 set 18 esp on
 ```
 
-#### Reboot to OFOX
+#### OFOX'u Yneiden Başlat
 
-#### Start the shell again on your PC
+#### Bilgisayarınızda komut istemini yeniden başlatın
 ```cmd
 adb shell
 ```
 
-#### Format partitions
--  Format the ESP partiton as FAT32
+#### Bölümleri Biçimlendirme
+-  ESP bölümünü FAT32 olarak biçimlendirin
 ```sh
 mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPMIATOLL
 ```
 
--  Format the Windows partition as NTFS
+-  Windows bölümünü NTFS olarak biçimlendirme
 ```sh
 mkfs.ntfs -f /dev/block/by-name/win -L WINMIATOLL
 ```
 
-- Format data
-Go to Wipe menu and press Format Data, 
-then type `yes`.
+- Verileri Biçimlendirin
+Wipe menüsüne gidin ve Format Data öğesine basın ardından `yes` yazın.
 
-#### Check if Android still starts
-Just restart the phone, and see if Android still works
+#### Android'in hala başlayıp başlamadığını kontrol edin
+Sadece telefonu yeniden başlatın ve Android'in hala çalışıp çalışmadığına bakın
 
 
-## [Next step: Installing Windows](2-install-en.md)
+## [Sonraki Adım: Windows'u Yükleme](2-kurulum-tr.md)
