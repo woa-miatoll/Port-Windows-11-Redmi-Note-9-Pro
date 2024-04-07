@@ -18,9 +18,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Project status](guide/English/status.md)
+- [Project status](guide/Türkçe/durum.md)
 
-- [Installation instructions](guide/English/1-partition-en.md)
+- [Installation instructions](guide/Türkçe/1-bölümleme-tr.md)
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 
