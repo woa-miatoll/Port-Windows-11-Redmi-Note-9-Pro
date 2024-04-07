@@ -5,15 +5,16 @@
 
 ## Choose your language
 
-English **|** [Türkçe](README_TR.md) **|** [Español](README_ES.md)
+[English](README.md) **|** Türkçe **|** [Español](README_ES.md)
 
-## ⚠️ Warning
+## ⚠️ Uyarı
 
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+Tuğlalı cihazlardan, eksik kurtarma bölümlerinden, ölü xiaomi factoryline ~~workers~~ kovboylarından, ölü microSD kartlardan, ölü pmic'lerden, ölü ram'lerden, ölü ekran ics'lerinden, ölü cpus'lardan, herhangi bir xiaomi / poco saçmalığından, ölü kedi veya köpeklerden, nükleer savaşlardan veya alarm için android'e geri dönmeyi unuttuğunuz için kovulmanızdan sorumlu değiliz.
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+Bu proje erken bir aşamadadır, buradaki tüm dosyalar diğer kullanıcılar tarafından katkıda bulunmuştur, burada elde etmeyi başardığımız çalışma dosyalarını içeren bir kılavuz bulacaksınız. Bu hassas bir süreçtir, kendi riskiniz altında yapın ve tüm adımları dikkatlice izleyin.
 
-**IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+**TELEFONUNUZU VEYA BÖLÜM TABLOSUNU MODIFIYE ETME KONUSUNDA RAHAT DEĞILSENIZ VEYA CIHAZINIZI BOZMA PARANOYANIZ VARSA HEMEN TIKLAYIN!!! UYARILDINIZ, CİHAZINIZI BRICK EDERSENİZ KENDİ BAŞINIZA KALIRSINIZ!!! TEKRAR! UYARILDINIZ!!!**
+
 
 
 ## Get Started
