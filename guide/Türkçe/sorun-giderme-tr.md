@@ -1,36 +1,36 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro Üzerinde Windows 11 Çalıştırma">
 
 
-# Running Windows on the Redmi Note 9 Pro
+# Redmi Note 9 Pro'da Windows Çalıştırma
 
-## Troubleshooting Issues
+## Sorunların Giderilmesi
 
 
-## Device can boot into android but not bootloader
+## Cihaz android'e açılabiliyor ancak bootloader'a açılmıyor
 
-### Prerequisites:
+### Ön Koşullar:
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-This is caused by partitions with volume names the bootloader cannot handle, to fix this:
+Bu, önyükleyicinin işleyemediği birim adlarına sahip bölümlerden kaynaklanır, bunu düzeltmek için:
 
-- Boot to recovery
+- Kurtarma'ya boot edin
 
-- Connect phone to PC
+- Telefonu PC'ye bağlayın
 
-- Open cmd on PC
+- PC'de Komut İstemini açın
 
-- Run ```adb shell```
+- ``adb shell`` çalıştırın
 
-- Run ```parted```
+- ``parted`` çalıştırın
 
-- Run ```print``` to list all partitions
+- Tüm bölümleri listelemek için ``print`` komutunu çalıştırın
 
-- Look for partitions that have spaces in the names e.g "Basic Data Partition" and note their volume number
+- Adlarında boşluk olan bölümleri arayın, örneğin "Temel Veri Bölümü" ve birim numaralarını not edin
 
-- Now run ```rm <vol number>``` e.g ```rm 36```
+- Şimdi ``rm <bölüm numarası>`` çalıştırın, örneğin ``rm 36```
 
 
-## Touchscreen doesnt work
+## Dokunmatik ekran çalışmıyor
 
-- Turn display off and on, or your panel is Huaxing and not supported yet.
+- Ekranı kapatın ve açın
