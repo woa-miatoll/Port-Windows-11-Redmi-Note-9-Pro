@@ -33,4 +33,4 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 
 ## Touchscreen doesnt work
 
-- Turn display off and on, or your panel is Huaxing and not supported yet.
+- Turn display off and on

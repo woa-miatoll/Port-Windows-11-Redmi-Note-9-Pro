@@ -6,19 +6,18 @@
 ## Installation
 
 ## Installing Windows
-> You will need to have MTP disabled in Mount
 
 ### Prerequisites
 
 - [Windows on ARM image (Windows 11 is recommended)](https://uup.ee/)
 - [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.9)
+- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/latest)
 
 #### Execute the msc script
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
 ### Assign letters to disks
@@ -100,6 +99,13 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 ## Boot into Windows
 
+### Check what type of panel you have
+
+> Open cmd
+```cmd
+adb shell panel
+```
+
 ### Move the `<uefi.img>` file to the device
 
 ```cmd
@@ -125,4 +131,4 @@ Navigate to the `uefi.img` file and flash it into boot
 ## Boot back into Android
 > Use your backup boot image from TWRP
 
-## Finished!
+## [Next optional step: Set up Dualboot](dualboot-en.md)
