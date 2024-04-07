@@ -1,34 +1,34 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro Üzerinde Windows 11 Çalıştırma">
 
 
-# Running Windows on the Redmi Note 9 Pro
+# Redmi Note 9 Pro'da Windows Çalıştırma
 
-## Project Status
+## Proje Durumu
 
-Alpha. It can already be used on Windows, but many things no work yet, many of them are essential
+Alfa. Windows'ta zaten kullanılabilir, ancak birçok şey henüz çalışmıyor, birçoğu çok önemlidir.
 
-#### Features
+#### Özellikler
 
-- [ ] Audio ```It seems that it can be achieved, but it is not easy```
-- [ ] Battery status
+- [ ] Ses ```Bu başarılabilir gibi görünüyor, ancak kolay değil```
+- [ ] Batarya Göstergesi
 - [x] Bluetooth 
-- [X] Brightness
-- [ ] Camera
-- [ ] Charging 
-- [x] Display
+- [X] Parlaklık
+- [ ] Kamera
+- [ ] Şarj Olma 
+- [x] Ekran
 - [x] GPU
-- [ ] LTE 
+- [ ] Mobil Veri 
 - [ ] SD 
-- [X] Touchscreen
+- [X] Dokunmatik
 - [x] UFS
 - [x] USB
-- [x] Wi-Fi ```You have to install it manually after starting Windows```
+- [x] Wi-Fi ```Windows'u başlattıktan sonra manuel olarak yüklemeniz gerekiyor```
 
 #### Sensors
-- [ ] Accelerometer
-- [ ] Fingerprint
+- [ ] İvmeölçer
+- [ ] Parmak İzi
 - [x] GPS
-- [ ] Gyroscope
-- [ ] Light sensor
-- [ ] Magnetometer
-- [ ] Proximity
+- [ ] Jiroskop
+- [ ] Işık sensörü
+- [ ] Manyetometre
+- [ ] Yakınlık
