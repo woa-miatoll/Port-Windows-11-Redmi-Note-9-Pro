@@ -28,7 +28,7 @@ Bu, önyükleyicinin işleyemediği birim adlarına sahip bölümlerden kaynakla
 
 - Adlarında boşluk olan bölümleri arayın, örneğin "Temel Veri Bölümü" ve birim numaralarını not edin
 
-- Şimdi ``rm <bölüm numarası>`` çalıştırın, örneğin ``rm 36```
+- Şimdi ``rm <bölüm numarası>`` çalıştırın, örneğin ``rm 36``
 
 
 ## Dokunmatik ekran çalışmıyor
