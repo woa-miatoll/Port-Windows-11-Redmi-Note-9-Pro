@@ -1,37 +1,38 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro Üzerinde Windows 11 Çalıştırma">
 
 
-# Windows on the Redmi Note 9 Pro
+# Redmi Note 9 Pro'da Windows Çalıştırma
 
-## Dualbooting Android and Windows seamlessly
+## Android ve Windows'u sorunsuz bir şekilde çift önyükleme
 > [!IMPORTANT]
-> You have to be rooted to use this guide.
+> Bu kılavuzu kullanmak için root edilmiş olmanız gerekir.
 
-### Previous requirements
+### Ön Koşullar
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [WOA Helper app](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/woahelper.apk)
 - [StA Installer](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/StA_Installer_miatoll.exe)
 
-## Set up dualboot app
+## Çift Önyükleme uygulamasını ayarlama
 
-### Setup - Android
+### Kurulum - Android
 > [!NOTE]
-> If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to recovery and use your `Windows` boot backup to return to Android.
+> Dosyaları Windows klasörüne taşıyamıyorsanız, Windows'u yeniden başlatmak yerine kapatmışsınız demektir. Bu sorunu çözmek için, Windows'a geri dönün ve yeniden başlatmayı kullanın, ardından yeniden başlatıldığında kurtarmaya önyükleme yapın ve Android'e dönmek için `Windows` önyükleme yedeğinizi kullanın.
 
-- Download and install the [WOA Helper app](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/woahelper.apk), then open it and grant it root access.
-- Download the [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3) and place it inside the folder named `UEFI` in your internal storage, if this folder does not exist, create it.
-- Return to the WOA Helper app and press the `Back up Android boot` button. Select both the `Windows` and `Android` options.
-- Press the `Mount Windows` button, then download and move [StA_Installer_miatoll.exe](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/StA_Installer_miatoll.exe) to the newly created `Windows` folder in your internal storage.
-- Return to the WOA Helper app and press `Quickboot to Windows`.
+- [WOA Helper app](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/woahelper.apk) yükleyin ve kurun ardından açın ve root erişimi verin
+- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3) Uefi imajını yükleyin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içine yerleştirin, bu klasör mevcut değilse oluşturun.
+- WOA Helper uygulamasına dönün ve `Back up Android boot` düğmesine basın. Hem `Windows` hem de `Android` seçeneklerini seçin.
+- `Mount Windows` butonuna basın , ardından  [StA_Installer_miatoll.exe](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/StA_Installer_miatoll.exe) dosyasını indirip dahili depolama alanınızda yeni oluşturulan `Windows` klasörüne taşıyın.
+- WOA Helper uygulamasına dönün ve `Quickboot to Windows` tuşuna basın.
 
-### Setup - Windows
-- Navigate to `C:\StA_Installer_miatoll.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run.
+### Kurulum - Windows
+- C:\StA_Installer_miatoll.exe'ye gidin ve çalıştırın. Çalışmazsa, muhtemelen uygulamanın çalışmasına izin vermeyeceği için herhangi bir antivirüs yazılımının kapalı olduğundan emin olun.
 
-##### Booting to Android
-  - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
 
-##### Booting to Windows
-  - Press `Quickboot to Windows` inside the app, or use the newly created toggle in your quick settings panel
+##### Android'e Ön Yükleme
+  - Yeni kısayolu masaüstünüzde çalıştırın (erişim kolaylığı için başlat menünüze / görev çubuğunuza da sabitleyebilirsiniz)
+
+##### Windows'a Ön Yükleme
+  - Uygulamanın içinden `Quickboot to Windows` seçeneğine basın veya hızlı ayarlar panelinizde yeni oluşturulan geçişi kullanın
   
-## Finished!
+## Bitti!
