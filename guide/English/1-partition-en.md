@@ -37,89 +37,13 @@ fastboot boot <ofpx.img>
 #### Unmount all partitions
 Go to OFOX settings and unmount all partitions
 
-#### Start parted
+#### Run the partitioning script
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
+> If it asks you to run it once again, do so
 ```sh
-Adb shell parted /dev/block/sda
+adb shell partition $
 ```
-
-#### Delete the `userdata` partition
-> You can make sure that 18 is the userdata partition number by running
->  `print all`
-```sh
-rm 18
-```
-
-#### Create partitions
-> If you get any warning message telling you to ignore or cancel, just type i and enter
-
-<details>
-<summary><b><strong>For 64GB Models</strong></b></summary>
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
-```sh
-mkpart esp fat32 11GB 11.4GB
-```
-
-- Create the main partition where Windows will be installed to
-```sh
-mkpart win ntfs 11.4GB 42.4GB
-```
-  
-- Create Android's data partition
-```sh
-mkpart userdata ext4 42.4GB 59.4GB
-```
-
-  </summary>
-</details>
-
-<details>
-<summary><b><strong>For 128GB Models</strong></b></summary>
-
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
-```sh
-mkpart esp fat32 11GB 11.4GB
-```
-
-- Create the main partition where Windows will be installed to
-```sh
-mkpart win ntfs 11.4GB 65.4GB
-```
-  
-- Create Android's data partition
-```sh
-mkpart userdata ext4 65.4GB 123GB
-```
-  </summary>
-</details>
-
-#### Make ESP partiton bootable so the EFI image can detect it
-```sh
-set 18 esp on
-```
-
-#### Reboot to OFOX
-
-#### Start the shell again on your PC
-```cmd
-adb shell
-```
-
-#### Format partitions
--  Format the ESP partiton as FAT32
-```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPMIATOLL
-```
-
--  Format the Windows partition as NTFS
-```sh
-mkfs.ntfs -f /dev/block/by-name/win -L WINMIATOLL
-```
-
-- Format data
-Go to Wipe menu and press Format Data, 
-then type `yes`.
 
 #### Check if Android still starts
 Just restart the phone, and see if Android still works
