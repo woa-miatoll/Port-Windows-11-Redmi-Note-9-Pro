@@ -25,7 +25,7 @@ adb shell msc.sh
   
 
 #### Windows disk yöneticisini başlatın
-> [!Uyarı]
+> [!Warning]
 > if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
 
 > Once the Note 9 Pro is detected as a disk
