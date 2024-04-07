@@ -1,11 +1,11 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro'da Windows 11 Çalıştırma">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro Üzerinde Windows 11 Çalıştırma">
 
 
-# Running Windows on the Redmi Note 9 Pro
+# Redmi Note 9 Pro'da Windows Çalıştırma
 
 ## Choose your language
 
-English **|** [Türkçe](README_TR.md)
+English **|** [Türkçe](README_TR.md) **|** [Español](README_ES.md)
 
 ## ⚠️ Warning
 
