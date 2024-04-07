@@ -19,22 +19,22 @@ Bu proje erken bir aşamadadır, buradaki tüm dosyalar diğer kullanıcılar ta
 
 ## Get Started
 
-- [Project status](guide/Türkçe/durum.md)
+- [Proje Durumu](guide/Türkçe/durum.md)
 
-- [Installation instructions](guide/Türkçe/1-bölümleme-tr.md)
+- [Kurulum Talimatları](guide/Türkçe/1-bölümleme-tr.md)
 
-- [Troubleshooting](guide/English/troubleshooting-en.md)
+- [Sorun Giderme](guide/Türkçe/sorun-giderme-tr.md)
 
 
 ## Miscellaneous
 
-- [Dualboot setup](guide/English/dualboot-en.md)
+- [Çift Önyükleme Kurulumu](guide/Türkçe/çift-önyükleme-tr.md)
 
-- [Optional post-install stuff](guide/postinstall-en.md)
+- [İsteğe Bağlı Kurulum Sonrası Şeyler](/README_TR.md)
 
-- [Driver updating instructions](guide/English/update-en.md)
+- [Sürücü Güncelleme Talimatları](guide/Türkçe/güncelleme-tr.md)
 
-- [Uninstall instructions](guide/English/restore-stock-en.md)
+- [Kaldırma Talimatları](guide/Türkçe/stoğu-geri-yükle-tr.md)
 
 ## Contributors
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
