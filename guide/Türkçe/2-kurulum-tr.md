@@ -28,101 +28,101 @@ adb shell msc.sh
 > [!Warning]
 > Daha sonra veya şimdi diskpart aracılığıyla herhangi bir bölümü silerseniz, Windows yanlış yorumlanan ve tüm ufs'lerinizi silen bir ufs komutu gönderecektir.
 
-> Once the Note 9 Pro is detected as a disk
+> Note 9 Pro Bir Disk Olarak Algılandığında
 
 ```cmd
 diskpart
 ```
 
 
-### Assign `X` to Windows volume
+### Windows birimine `X` atayın
 
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINMIATOLL"
+#### Telefonun Windows birimini seçin
+> Bulmak için `list volume` kullanın, "WINMIATOLL" adlı birimdir.
 
 ```diskpart
-select volume <number>
+select volume <sayı>
 ```
 
-#### Assign the letter X
+#### X harfini atayın
 ```diskpart
 assign letter=x
 ```
 
-### Assign `Y` to esp volume
+### Esp birimine `Y` atayın
 
-#### Select the ESP volume of the phone
-> Use `list volume` to find it, it's the one named "ESPMIATOLL"
+#### Telefonun ESP birimini seçin
+> Bulmak için `list volume` kullanın, "ESPMIATOLL" adlı birimdir.
 
 ```diskpart
-select volume <number>
+select volume <sayı>
 ```
 
-#### Assign the letter Y
+#### Y harfini atayın
 
 ```diskpart
 assign letter=y
 ```
 
-#### Exit diskpart
+#### Diskpart'tan çıkın
 ```diskpart
 exit
 ```
 
-## Install
+## Kurulum
 
-> replace `<path/to/Install.wim>` with the path of the install.wim file
+> `<path/to/Install.wim>` yerine install.wim dosyasının yolunu yazın
 
-> `install.wim` is in the ISO sources folder
-> you can get it after mounting or extracting the ISO
+> `install.wim` ISO'nun içinde sources klasöründedir
+> ISO'yu monte ettikten veya çıkardıktan sonra alabilirsiniz
 
 ```cmd
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 ```
 
-### Install Drivers
+### Sürücüleri Kurma
 
-Open OfflineUpdater.bat file from the drivers folder and type X:
+Sürücüler klasöründen OfflineUpdater.bat dosyasını açın ve X yazın:
 
-### Create Windows bootloader files for the EFI
+### EFI için Windows önyükleyici dosyaları oluşturma
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-## Allow unsigned drivers
+## İmzasız sürücülere izin ver
 
-> If you don't do this you'll get a BSOD
+> Bunu yapmazsanız bir BSOD(Blue Screen Of Death) alırsınız
 
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
-## Boot into Windows
+## Windows'a önyükleme
 
-### Move the `<uefi.img>` file to the device
+### `<uefi.img>` dosyasını cihaza taşıyın
 
 ```cmd
 adb push <uefi.img> /sdcard
 ```
 
-#### if you have a microSD card use this
+#### microSD kartınız varsa bunu kullanın
 
 ```cmd
 adb push <uefi.img> /external_sd
 ```
 
 
-### Make a backup of your existing boot image
-> You need to do it just once
+### Mevcut önyükleme görüntünüzün yedeğini alın
+> Sadece bir kez yapmalısın
 
-> Put it to the microSD card if possible
+> Mümkünse microSD karta yerleştirin
 
 
-### Flash the uefi image from TWRP
-Navigate to the `uefi.img` file and flash it into boot
+### OFOX'dan uefi görüntüsünü flaşlayın
+`uefi.img` dosyasına gidin ve bunu boot bölümüne flaşlayın
 
-## Boot back into Android
-> Use your backup boot image from TWRP
+## Android'e geri dönün
+> OFOX'dan yedek önyükleme görüntünüzü kullanın
 
-## Finished!
+## Bitti!
