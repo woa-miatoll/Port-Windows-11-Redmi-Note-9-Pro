@@ -34,7 +34,7 @@ Bu proje erken bir aşamadadır, buradaki tüm dosyalar diğer kullanıcılar ta
 
 - [Sürücü Güncelleme Talimatları](guide/Türkçe/güncelleme-tr.md)
 
-- [Kaldırma Talimatları](guide/Türkçe/stoğu-geri-yükle-tr.md)
+- [Kaldırma Talimatları](guide/Türkçe/kaldırma.md)
 
 ## Contributors
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
