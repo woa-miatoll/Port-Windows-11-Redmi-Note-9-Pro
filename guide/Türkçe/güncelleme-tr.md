@@ -10,7 +10,7 @@
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.5)
+- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/latest)
 
 #### Start TWRP recovery through the PC with the command
 
@@ -24,7 +24,7 @@ fastboot boot <twrp.img>
 #### Execute script
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
 ### Assign letters to disks
@@ -60,14 +60,7 @@ exit
 
 ### Install Drivers
 
-> Replace `<miatolldriversfolder>` with the location of the drivers folder
-
-> Open cmd as administrator
-
-
-```cmd
-DriverUpdater.exe -d <miatolldriversfolder>\definitions\Desktop\ARM64\Internal\miatoll.txt -r <miatolldriversfolder> -p X:
-```
+Open OfflineUpdater.bat file from the drivers folder and type X:
 
 
 ### Boot with Windows bootable UEFI image
