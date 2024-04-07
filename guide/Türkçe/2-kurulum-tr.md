@@ -1,30 +1,30 @@
-  <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
+  <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro Üzerinde Windows 11 Çalıştırma">
 
 
-# Running Windows on the Redmi Note 9 Pro
+# Redmi Note 9 Pro'da Windows Çalıştırma
 
-## Installation
+## Kurulum
 
-## Installing Windows
-> You will need to have MTP disabled in Mount
+## Windows'u Yükleme
+> Mount'ta MTP'yi devre dışı bırakmanız gerekecek
 
-### Prerequisites
+### Ön Koşullar
 
-- [Windows on ARM image (Windows 11 is recommended)](https://uup.ee/)
-- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.9)
+- [ARM üzerinde Windows ISO'su (Windows 11 önerilir)](https://uup.ee/)
+- [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
+- [Sürücü Güncelleyici](https://github.com/WOA-Project/DriverUpdater/releases/latest)
+- [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.9)
 
-#### Execute the msc script
+#### Msc Komut Dosyasını Çalıştırın
 
 ```cmd
 adb shell msc.sh
 ```
 
-### Assign letters to disks
+### Disklere Harf Atama
   
 
-#### Start the Windows disk manager
+#### Windows disk yöneticisini başlatın
 > [!Warning]
 > if you delete any partitions via diskpart later on or now windows will send a ufs command that gets misinterpreted which erase all your ufs
 
