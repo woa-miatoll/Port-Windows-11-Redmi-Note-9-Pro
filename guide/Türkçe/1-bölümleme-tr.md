@@ -15,6 +15,7 @@
 
 ### Notlar:
 > [!Uyarı]
+
 > Tüm verileriniz silinecek! Gerekirse şimdi yedekleyin.
 >
 > Bu komutlar test edilmiştir.
@@ -23,7 +24,7 @@
 >
 > Aynı komutu iki kez çalıştırmayın.
 >
-> Bir hata yaptığınızı düşünüyorsanız TELEFONUNUZU YENİDEN BAŞLATMAYIN, [Telegram sohbet](https://t.me/+ZZQCSx2n6Pk1M2Y9) adresinden yardım isteyin
+> Bir hata yaptığınızı düşünüyorsanız TELEFONUNUZU YENİDEN BAŞLATMAYIN, [Telegram](https://t.me/+ZZQCSx2n6Pk1M2Y9) adresinden yardım isteyin
 >
 > Tüm komutları aynı anda çalıştırmayın, sırayla çalıştırın!
 >
