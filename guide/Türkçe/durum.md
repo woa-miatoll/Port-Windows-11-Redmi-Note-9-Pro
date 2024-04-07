@@ -17,12 +17,18 @@ Alfa. Windows'ta zaten kullanılabilir, ancak birçok şey henüz çalışmıyor
 - [ ] Şarj Olma 
 - [x] Ekran
 - [x] GPU
-- [ ] Mobil Veri 
+- [x] Mobil Veri ``Yalnızca SIM 1 ve aşağıdaki adımları uygulamanız gerekir`` 
 - [ ] SD 
 - [X] Dokunmatik
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi ```Windows'u başlattıktan sonra manuel olarak yüklemeniz gerekiyor```
+
+##### LTE'nin çalışması için şunlara ihtiyacınız vardır:
+1. SIM kart 1. yuvaya takılıyken Android'e önyükleme yapın.
+2. Fastboot'a yeniden başlatın ve uefi.img'nin en son sürümünü flaşlayın
+3. Windows'a önyükleme yapın ve her şey çalışmalıdır
+4. Sim kart tepsisini çıkarırsanız veya Windows'ta sim yuvasını değiştirirseniz çalışmayı durduracak ve bu adımları tekrar yapmanız gerekecektir
 
 #### Sensors
 - [ ] İvmeölçer
