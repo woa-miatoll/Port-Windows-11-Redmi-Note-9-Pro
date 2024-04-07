@@ -100,6 +100,13 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 ## Windows'a önyükleme
 
+### Ne tür bir panele sahip olduğunuzu kontrol edin
+
+> Komut istemini açın
+```cmd
+adb shell panel
+```
+
 ### `<uefi.img>` dosyasını cihaza taşıyın
 
 ```cmd
