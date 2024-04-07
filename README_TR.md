@@ -5,7 +5,7 @@
 
 ## Choose your language
 
-[English](README.md) **|** Türkçe **|** [Español](README_ES.md)
+[English](README.md) **|** [Español](README_ES.md) **|** Türkçe
 
 ## ⚠️ Uyarı
 
