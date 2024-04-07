@@ -13,8 +13,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-### Notlar:
-[!Uyarı]
+### UYARI!!:
 > Tüm verileriniz silinecek! Gerekirse şimdi yedekleyin.
 >
 > Bu komutlar test edilmiştir.
