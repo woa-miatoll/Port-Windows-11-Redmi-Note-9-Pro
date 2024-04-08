@@ -1,72 +1,72 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Redmi Note 9 Pro Üzerinde Windows 11 Çalıştırma">
 
 
-# Running Windows on the Redmi Note 9 Pro
+# Redmi Note 9 Pro'da Windows Çalıştırma
 
-## Driver updating
+## Sürücü Güncelleme
 
-### Prerequisites
+### Gereksinimler
 
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/latest)
 
-#### Start TWRP recovery through the PC with the command
+#### OFOX Kurtarmayı PC üzerinden şu komutla başlatın
 
 ```cmd
-fastboot boot <twrp.img>
+fastboot boot <ofox.img>
 ```
 
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
+> OFOX zaten yüklüyse, başlangıçta güç ve ses+ düğmelerini basılı tutmanız yeterlidir
 
 
-#### Execute script
+#### Komutu Çalıştırın
 
 ```cmd
 adb shell msc
 ```
 
-### Assign letters to disks
+### Disklere harf atama
 
-#### Start the Windows disk manager
+#### Windows disk yönetimini açın
 
-> Once the Note 9 Pro is detected as a disk
+> Note 9 Pro bir disk olarak algılandığında 
 
 ```cmd
 diskpart
 ```
 
 
-### Assign `X` to Windows volume
+### Windows birimine `X` harfini atama
 
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINMIATOLL"
+#### Telefonun Windows birimini seçin
+> Bulmak için `list volume` kullanın, "WINMIATOLL" adlı birimdir.
 
 ```diskpart
-select volume <number>
+select volume <sayı>
 ```
 
-#### Assign the letter X
+#### X harfini atama
 ```diskpart
 assign letter=x
 ```
 
-#### Exit diskpart
+#### Diskpart'tan çık
 ```diskpart
 exit
 ```
 
 
-### Install Drivers
+### Sürücüleri Kurma
 
-Open OfflineUpdater.bat file from the drivers folder and type X:
+Sürücüler klasöründen OfflineUpdater.bat dosyasını açın ve X: yazın
 
 
-### Boot with Windows bootable UEFI image
+### Windows önyüklenebilir UEFI İmajı ile önyükleme
 
 ```
 fastboot flash boot <uefi.img>
 ```
 
-## Finished!
+## Bitti!
