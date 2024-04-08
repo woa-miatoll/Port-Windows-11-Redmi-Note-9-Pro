@@ -13,12 +13,12 @@
 - [ARM üzerinde Windows ISO'su (Windows 11 önerilir)](https://uup.ee/)
 - [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [Sürücü Güncelleyici](https://github.com/WOA-Project/DriverUpdater/releases/latest)
-- [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.9)
+- [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/tag/latest)
 
 #### Msc Komut Dosyasını Çalıştırın
 
 ```cmd
-adb shell msc.sh
+adb shell msc
 ```
 
 ### Disklere Harf Atama
@@ -132,4 +132,4 @@ adb push <uefi.img> /external_sd
 ## Android'e geri dönün
 > OFOX'dan yedek önyükleme görüntünüzü kullanın
 
-## Bitti!
+## [Sonraki İstege Bğlı Adım: Çift Önyüklemeyi Kurma](çift-önyükleme-tr.md)
