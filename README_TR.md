@@ -17,7 +17,7 @@ Bu proje erken bir aşamadadır, buradaki tüm dosyalar diğer kullanıcılar ta
 
 
 
-## Get Started
+## Başlangıç
 
 - [Proje Durumu](guide/Türkçe/durum.md)
 
@@ -26,7 +26,7 @@ Bu proje erken bir aşamadadır, buradaki tüm dosyalar diğer kullanıcılar ta
 - [Sorun Giderme](guide/Türkçe/sorun-giderme-tr.md)
 
 
-## Miscellaneous
+## Kurulum Sonrası
 
 - [Çift Önyükleme Kurulumu](guide/Türkçe/çift-önyükleme-tr.md)
 
