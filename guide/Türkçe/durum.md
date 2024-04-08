@@ -17,7 +17,7 @@ Alfa. Windows'ta zaten kullanılabilir, ancak birçok şey henüz çalışmıyor
 - [ ] Şarj Olma 
 - [x] Ekran
 - [x] GPU
-- [x] Mobil Veri ``Yalnızca SIM 1 ve aşağıdaki adımları uygulamanız gerekir`` 
+- [x] Mobil Veri ``Yalnızca SIM 1 ve aşağıdaki adımları uygulamanız gerekiyor`` 
 - [ ] SD 
 - [X] Dokunmatik
 - [x] UFS
