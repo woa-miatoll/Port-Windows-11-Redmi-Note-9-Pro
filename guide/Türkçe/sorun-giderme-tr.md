@@ -8,7 +8,7 @@
 
 ## Cihaz android'e açılabiliyor ancak bootloader'a açılmıyor
 
-### Ön Koşullar:
+### Gereksinimler:
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 

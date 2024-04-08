@@ -7,7 +7,7 @@
 
 ## Cihazınızı bölümlere ayırma
 
-### Ön Koşullar
+### Gereksinimler
 
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 

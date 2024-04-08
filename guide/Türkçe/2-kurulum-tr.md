@@ -8,7 +8,7 @@
 ## Windows'u Yükleme
 > Mount'ta MTP'yi devre dışı bırakmanız gerekecek
 
-### Ön Koşullar
+### Gereksinimler
 
 - [ARM üzerinde Windows ISO'su (Windows 11 önerilir)](https://uup.ee/)
 - [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)

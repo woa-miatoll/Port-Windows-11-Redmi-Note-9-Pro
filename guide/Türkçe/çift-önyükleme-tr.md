@@ -7,7 +7,7 @@
 > [!IMPORTANT]
 > Bu kılavuzu kullanmak için root edilmiş olmanız gerekir.
 
-### Ön Koşullar
+### Gereksinimler
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [WOA Helper app](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/woahelper.apk)

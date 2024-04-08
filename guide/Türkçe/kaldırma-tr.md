@@ -11,7 +11,7 @@ Windows'u kaldırmak istiyorsanız, insan hatasını önlemek için bölümleri 
 
 Önyükleyicinizi yeniden kilitlemek istiyorsanız, bölümleme tablonuzun stokta olması gerekir.
 
-### Ön Koşullar
+### Gereksinimler
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 - [gpt_both0.bin](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Binaries)
