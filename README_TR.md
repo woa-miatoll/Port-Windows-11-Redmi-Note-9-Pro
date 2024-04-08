@@ -28,7 +28,7 @@ Bu proje erken bir aşamadadır, buradaki tüm dosyalar diğer kullanıcılar ta
 
 ## Kurulum Sonrası
 
-- [Çift Önyükleme Kurulumu](guide/Türkçe/Dualboot (Çift Sistem) Kurulumu-tr.md)
+- [Dualboot (Çift Sistem) Kurulumu](guide/Türkçe/çift-önyükleme-tr.md)
 
 - [İsteğe Bağlı Kurulum Sonrası Şeyler](/README_TR.md)
 
