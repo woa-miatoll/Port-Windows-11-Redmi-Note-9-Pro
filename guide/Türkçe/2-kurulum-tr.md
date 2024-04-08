@@ -132,4 +132,4 @@ adb push <uefi.img> /external_sd
 ## Android'e geri dönün
 > OFOX'dan yedek önyükleme görüntünüzü kullanın
 
-## [Sonraki İstege Bğlı Adım: Dualboot (Çift Sistem) Kurma](çift-önyükleme-tr.md)
+## [Sonraki İstege Bağlı Adım: Dualboot (Çift Sistem) Kurma](çift-önyükleme-tr.md)
