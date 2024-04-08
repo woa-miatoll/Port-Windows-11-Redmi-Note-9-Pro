@@ -24,7 +24,7 @@ fastboot boot <ofox.img>
 #### Komutu Çalıştırın
 
 ```cmd
-adb shell msc
+adb shell msc.sh
 ```
 
 ### Disklere harf atama
