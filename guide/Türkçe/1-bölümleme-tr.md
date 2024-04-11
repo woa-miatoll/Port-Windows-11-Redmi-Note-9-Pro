@@ -10,8 +10,8 @@
 ### Gereksinimler
 
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
-
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- Beyin (Çok önemli)
 
 ### Notlar:
 > [!Warning]

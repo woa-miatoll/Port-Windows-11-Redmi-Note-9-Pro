@@ -12,6 +12,7 @@
 - [Windows on ARM image (Windows 11 is recommended)](https://uupdump.net/)
 - [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- Brain (Very important)
 
 #### Execute the msc script
 
