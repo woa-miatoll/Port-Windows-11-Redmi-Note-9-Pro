@@ -8,7 +8,7 @@
 
 ### Requisitos Previos
 
-- [Windows para ARM (Windows 11 es el recomendado)](https://uup.ee/)
+- [Windows para ARM (Windows 11 es el recomendado)](https://uupdump.net/)
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.9)
 

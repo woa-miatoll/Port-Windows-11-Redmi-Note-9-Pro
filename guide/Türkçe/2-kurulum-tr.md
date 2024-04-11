@@ -10,7 +10,7 @@
 
 ### Gereksinimler
 
-- [ARM üzerinde Windows ISO'su (Windows 11 önerilir)](https://uup.ee/)
+- [ARM üzerinde Windows ISO'su (Windows 11 önerilir)](https://uupdump.net/)
 - [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
