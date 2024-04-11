@@ -9,7 +9,6 @@
 
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
-- [Sürücü Güncelleyici](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 #### OFOX Kurtarmayı PC üzerinden şu komutla başlatın

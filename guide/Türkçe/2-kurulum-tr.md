@@ -12,7 +12,6 @@
 
 - [ARM üzerinde Windows ISO'su (Windows 11 önerilir)](https://uup.ee/)
 - [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
-- [Sürücü Güncelleyici](https://github.com/WOA-Project/DriverUpdater/releases/latest)
 - [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 #### Msc Komut Dosyasını Çalıştırın
