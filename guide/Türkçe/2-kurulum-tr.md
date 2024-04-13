@@ -26,7 +26,7 @@ adb shell msc
 
 #### Windows disk yöneticisini başlatın
 > [!Warning]
-> Daha sonra veya şimdi diskpart aracılığıyla herhangi bir bölümü silerseniz, Windows yanlış yorumlanan ve tüm ufs'lerinizi silen bir ufs komutu gönderecektir.
+> DISKPART'TA İKEN SİLME, OLUŞTURMA YA DA BAŞKA BİR DEĞİŞİKLİK YAPMAYIN!!! BU BÜTÜN UFS'NİZİ SİLECEKTİR YA DA FASTBOOT'A BOOT ETMENİZİ ENGELLEYECEKTİR!!! BU CİHAZINIZIN ÇÖZÜMÜ OLMAKSIZIN KALICI OLARAK BRICK OLDUĞU ANLAMINA GELİR! (cihazı Xiaomi servisine götürme ya da EDL ile flashlama elbette bir çözümdür ancak iki çözüm de ücretsiz değildir.)
 
 > Note 9 Pro Bir Disk Olarak Algılandığında
 
