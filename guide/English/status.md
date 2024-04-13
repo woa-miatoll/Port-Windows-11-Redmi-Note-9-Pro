@@ -5,7 +5,7 @@
 
 ## Project Status
 
-Alpha. It can already be used on Windows, but many things no work yet, many of them are essential
+Beta, Most of the hardware works, but some components do not work yet.
 
 #### Features
 

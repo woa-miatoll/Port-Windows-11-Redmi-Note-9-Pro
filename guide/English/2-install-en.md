@@ -81,7 +81,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Install Drivers
 
-Open OfflineUpdater.bat file from the drivers folder and type X:
+> Extract the drivers archive and open the 'OfflineUpdater.cmd' file. Type the drive letter of WINMIATOLL (should be X) and hit enter.
 
 ### Create Windows bootloader files for the EFI
 

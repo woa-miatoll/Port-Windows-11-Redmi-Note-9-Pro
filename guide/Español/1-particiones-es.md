@@ -15,7 +15,6 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 ## Notas:
 > **Advertencia** si eliminas alguna partición via diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda la ufs
 - Estos comandos han sido testeados.
-- Ignora las advertencias de `udevadm`
 - No ejecutes el mismo comando dos veces
 - NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/+ZZQCSx2n6Pk1M2Y9)
 
@@ -28,9 +27,6 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 fastboot boot <ofox.img>
 ```
 > si tienes el OFOX modificado instalado, solo presiona el botón de encendido y vol+ para iniciarlo
-
-#### Desmonta todas las particiones
-Ve a mount en OFOX y desmonta todas las particiones
 
 ### Iniciar parted
 ```sh

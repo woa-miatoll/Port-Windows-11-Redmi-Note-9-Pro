@@ -19,8 +19,6 @@
 >
 > Bu komutlar test edilmiştir.
 >
-> `udevadm` uyarılarını yoksay.
->
 > Aynı komutu iki kez çalıştırmayın.
 >
 > Bir hata yaptığınızı düşünüyorsanız TELEFONUNUZU YENİDEN BAŞLATMAYIN, [Telegram](https://t.me/+ZZQCSx2n6Pk1M2Y9) adresinden yardım isteyin
@@ -33,9 +31,6 @@
 ```cmd
 fastboot boot <ofpx.img>
 ```
-
-#### Tüm bölümlerin bağlantısını kaldırın
-OFOX ayarlarına gidin ve tüm bölümlerin bağlantısını kaldırın
 
 #### Bölümleme Komut Dosyasını Çalıştırın
 > Windows'un sahip olmasını istediğiniz depolama miktarını **$** ile değiştirin (GB eklemeyin, sadece sayıyı yazın)

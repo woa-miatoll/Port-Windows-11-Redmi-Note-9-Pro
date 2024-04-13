@@ -3,6 +3,8 @@
 
 # Redmi Note 9 Pro'da Windows Çalıştırma
 
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/+ZZQCSx2n6Pk1M2Y9)
+
 ## Choose your language
 
 [English](README.md) **|** [Español (Outdated)](README_ES.md) **|** Türkçe
@@ -30,14 +32,13 @@ Bu proje erken bir aşamadadır, buradaki tüm dosyalar diğer kullanıcılar ta
 
 - [Dualboot (Çift Sistem) Kurulumu](guide/Türkçe/çift-önyükleme-tr.md)
 
-- [İsteğe Bağlı Kurulum Sonrası Şeyler](/README_TR.md)
-
 - [Sürücü Güncelleme Talimatları](guide/Türkçe/güncelleme-tr.md)
 
 - [Kaldırma Talimatları](guide/Türkçe/kaldırma-tr.md)
 
 ## Katkıda Bulunanlar
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
+[<img alt="N1kroks" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/117468042?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/N1kroks)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="degdag" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22778181?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/degdag)

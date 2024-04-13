@@ -3,6 +3,8 @@
 
 # Windows en el Redmi Note 9 Pro
 
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/+ZZQCSx2n6Pk1M2Y9)
+
 ## Elige tu idioma
 
 [English](README.md) **|** Español (Outdated) **|** [Türkçe](README_TR.md)
@@ -28,8 +30,6 @@ SI NO SE SIENTE CÓMODO MODIFICANDO SU TELÉFONO O SU TABLA DE PARTICIONES O EST
 
 - [Dualboot](guide/Español/dualboot-es.md)
 
-- [Cosas opcionales después de instalar](guide/postinstall-en.md)
-
 - [Actualizar los drivers](guide/Español/Actualizar-es.md)
 
 - [Desinstalar](guide/Español/restaurar-de-fabrica-es.md)
@@ -37,6 +37,7 @@ SI NO SE SIENTE CÓMODO MODIFICANDO SU TELÉFONO O SU TABLA DE PARTICIONES O EST
 
 ## Contribuidores
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
+[<img alt="N1kroks" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/117468042?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/N1kroks)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
 [<img alt="degdag" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22778181?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/degdag)

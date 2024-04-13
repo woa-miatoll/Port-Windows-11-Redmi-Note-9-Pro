@@ -19,8 +19,6 @@
 >
 > These commands have been tested.
 >
-> Ignore `udevadm` warnings
->
 > Do not run the same command twice
 >
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/+ZZQCSx2n6Pk1M2Y9)
@@ -33,9 +31,6 @@
 ```cmd
 fastboot boot <ofpx.img>
 ```
-
-#### Unmount all partitions
-Go to OFOX settings and unmount all partitions
 
 #### Run the partitioning script
 > Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)

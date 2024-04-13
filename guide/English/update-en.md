@@ -7,7 +7,7 @@
 
 ### Prerequisites
 
-- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV2)
+- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
@@ -59,7 +59,7 @@ exit
 
 ### Install Drivers
 
-Open OfflineUpdater.bat file from the drivers folder and type X:
+> Extract the drivers archive and open the 'OfflineUpdater.cmd' file. Type the drive letter of WINMIATOLL (should be X) and hit enter.
 
 
 ### Boot with Windows bootable UEFI image
