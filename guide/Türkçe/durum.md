@@ -5,7 +5,7 @@
 
 ## Proje Durumu
 
-Alfa. Windows'ta zaten kullanılabilir, ancak birçok şey henüz çalışmıyor, birçoğu çok önemlidir.
+Alfa. Windows kullanılabilir, ancak birçok şey henüz çalışmıyor, birçoğu çok önemlidir.
 
 #### Özellikler
 
@@ -17,7 +17,7 @@ Alfa. Windows'ta zaten kullanılabilir, ancak birçok şey henüz çalışmıyor
 - [ ] Şarj Olma 
 - [x] Ekran
 - [x] GPU
-- [x] Mobil Veri ``Yalnızca SIM 1 ve aşağıdaki adımları uygulamanız gerekiyor`` 
+- [x] Mobil Veri ``Yalnızca SIM 1 çalışıyor ve aşağıdaki adımları uygulamanız gerekiyor`` 
 - [ ] SD 
 - [X] Dokunmatik
 - [x] UFS
@@ -30,7 +30,7 @@ Alfa. Windows'ta zaten kullanılabilir, ancak birçok şey henüz çalışmıyor
 3. Windows'a önyükleme yapın ve her şey çalışmalıdır
 4. SIM kart tepsisini çıkarırsanız veya Windows'ta sim yuvasını değiştirirseniz çalışmayı durduracak ve bu adımları tekrar yapmanız gerekecektir
 
-#### Sensors
+#### Sensörler
 - [ ] İvmeölçer
 - [ ] Parmak İzi
 - [x] GPS
