@@ -9,8 +9,6 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
 
-- [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
-
 - [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
