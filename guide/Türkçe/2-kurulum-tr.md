@@ -82,7 +82,7 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 ### Sürücüleri Kurma
 
-Sürücüler klasöründen OfflineUpdater.bat dosyasını açın ve X yazın:
+>Sürücü dosyasını çıkarın ve 'OfflineUpdater.cmd' dosyasını açın. WINMIATOLL sürücüsünün harfini yazın (X olmalıdır) ve enter tuşuna basın.
 
 ### EFI için Windows önyükleyici dosyaları oluşturma
 
@@ -126,7 +126,7 @@ adb push <uefi.img> /external_sd
 > Mümkünse microSD karta yerleştirin
 
 
-### OFOX'dan uefi görüntüsünü flaşlayın
+### OFOX'tan uefi görüntüsünü flaşlayın
 `uefi.img` dosyasına gidin ve bunu boot bölümüne flaşlayın
 
 ## Android'e geri dönün
