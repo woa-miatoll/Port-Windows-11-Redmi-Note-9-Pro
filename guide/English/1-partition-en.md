@@ -25,7 +25,8 @@
 >
 > DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-### Boot OFOX recovery through the PC with the command
+### Boot OFOX recovery
+> While in fastboot run
 ```cmd
 fastboot boot <ofox.img>
 ```
