@@ -5,7 +5,7 @@
 
 ## Proje Durumu
 
-Alfa. Windows kullanılabilir, ancak birçok şey henüz çalışmıyor, birçoğu çok önemlidir.
+Beta, Çoğu donanım çalışıyor, ancak bazı şeyler henüz çalışmıyor.
 
 #### Özellikler
 
