@@ -43,6 +43,9 @@ assign letter x
 exit
 ```
 
+#### Formatting Windows
+> Go to Windows Explorer > This PC and select **WINMIATOLL**. Right click and format as NTFS.
+
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 ```cmd
@@ -58,7 +61,16 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > If any errors appear under **Installing App Packages**, ignore them and continue
 
+### Boot into Windows
+Reboot your phone. If you end up in Android instead of Windows, flash the UEFI again using WOA Helper.
 
+#### Setting up Windows
+> Your device will now set up Windows. This will take some time. It will eventually reboot, and after that the initial setup (oobe) should launch.
+
+> [!Note]
+> To skip the Microsoft Account login, use "g" for the email and password. Windows will then let you make a local account
+
+## Finished!
 
 
 
