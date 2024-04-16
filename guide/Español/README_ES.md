@@ -15,7 +15,7 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 SI NO SE SIENTE CÓMODO MODIFICANDO SU TELÉFONO O SU TABLA DE PARTICIONES O ESTÁ PARANOICO DE BRICKEAR SU DISPOSITIVO SALGA AHORA MISMO!!! USTED HA SIDO ADVERTIDO, USTED ESTÁ POR SU CUENTA SI BRICKEA SU DISPOSITIVO!!! ¡DE NUEVO! ¡¡¡USTED HA SIDO ADVERTIDO!!!
 
 ## Comencemos
-- [Estado del proyecto](guide/Español/soporte.md)
+- [Estado del proyecto](/guide/Español/soporte.md)
 
 - [Instalación](guide/Español/1-particiones-es.md)
 
