@@ -1,71 +1,27 @@
 <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
-
 # Running Windows on the Redmi Note 9 Pro
 
-## Driver updating
+## Updating drivers
 
 ### Prerequisites
-
-- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
-- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-#### Start TWRP recovery through the PC with the command
+### Boot into Windows
+> Flash the UEFI image in fastboot or use the WOA Helper app
 
-```cmd
-fastboot boot <twrp.img>
-```
+### Installing Drivers
+> Unpack the driver archive on your Redmi Note 9 Pro, then open the `OnlineUpdater.cmd` file
 
-> If you already have TWRP installed, just hold the power and vol+ buttons at startup
+> Follow any instructions provided on the screen
 
-
-#### Execute script
-
-```cmd
-adb shell msc
-```
-
-### Assign letters to disks
-
-#### Start the Windows disk manager
-
-> Once the Note 9 Pro is detected as a disk
-
-```cmd
-diskpart
-```
-
-
-### Assign `X` to Windows volume
-
-#### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINMIATOLL"
-
-```diskpart
-select volume <number>
-```
-
-#### Assign the letter X
-```diskpart
-assign letter=x
-```
-
-#### Exit diskpart
-```diskpart
-exit
-```
-
-
-### Install Drivers
-
-> Extract the drivers archive and open the 'OfflineUpdater.cmd' file. Type the drive letter of WINMIATOLL (should be X) and hit enter.
-
-
-### Boot with Windows bootable UEFI image
-
-```
-fastboot flash boot <uefi.img>
-```
+> If you see an error after installing **App Packages**, ignore it, and reboot your device manually after it says **Done!**
 
 ## Finished!
+
+
+
+
+
+
+
