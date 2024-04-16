@@ -26,7 +26,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Driver updating instructions](guide/English/update-en.md)
 
-- [Reinstall instructions](guide/English/update-en.md)
+- [Reinstall instructions](guide/English/reinstall-en.md)
 
 - [Uninstall instructions](guide/English/restore-stock-en.md)
 
