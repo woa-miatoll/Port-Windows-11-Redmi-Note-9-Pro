@@ -1,21 +1,19 @@
-  <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
-
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
 # Running Windows on the Redmi Note 9 Pro
-
-## Installation
 
 ## Partitioning your device
 
 ### Prerequisites
-
 - [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
+
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
 - Brain (Very important)
 
 ### Notes:
 > [!Warning]
-> All your data will be erased! Backup now if needed.
+> All your data will be erased! Back up now if needed.
 >
 > These commands have been tested.
 >
@@ -27,9 +25,9 @@
 >
 > DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-##### Boot OFOX recovery through the PC with the command
+### Boot OFOX recovery through the PC with the command
 ```cmd
-fastboot boot <ofpx.img>
+fastboot boot <ofox.img>
 ```
 
 #### Run the partitioning script
