@@ -17,17 +17,17 @@ SI NO SE SIENTE CÓMODO MODIFICANDO SU TELÉFONO O SU TABLA DE PARTICIONES O EST
 ## Comencemos
 - [Estado del proyecto](/guide/Español/soporte.md)
 
-- [Instalación](guide/Español/1-particiones-es.md)
+- [Instalación](/guide/Español/1-particiones-es.md)
 
-- [Solucionar problemas](guide/Español/solucionar-problemas.md)
+- [Solucionar problemas](/guide/Español/solucionar-problemas.md)
 
 
 ## Extras
-- [Dualboot](guide/Español/dualboot-es.md)
+- [Dualboot](/guide/Español/dualboot-es.md)
 
-- [Actualizar los drivers](guide/Español/Actualizar-es.md)
+- [Actualizar los drivers](/guide/Español/Actualizar-es.md)
 
-- [Desinstalar](guide/Español/restaurar-de-fabrica-es.md)
+- [Desinstalar](/guide/Español/restaurar-de-fabrica-es.md)
 
 
 ## Contribuidores
