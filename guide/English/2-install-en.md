@@ -5,16 +5,23 @@
 ## Installing Windows
 
 ### Prerequisites
+- Brain (Very important)
+
 - [Windows on ARM image](https://worproject.com/esd)
 
 - [UEFI image](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
 
 - [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-- Brain (Very important)
+- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
+
+### Boot OFOX recovery
+> While in fastboot run
+```cmd
+fastboot boot <ofox.img>
+```
 
 #### Execute the msc script
-
 ```cmd
 adb shell msc
 ```
