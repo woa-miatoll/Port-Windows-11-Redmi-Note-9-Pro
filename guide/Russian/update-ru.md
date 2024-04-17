@@ -6,55 +6,16 @@
 ## Обновление драйверов
 
 ### Требования
-
-- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
-- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [Драйвера](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-#### Запустите OFOX recovery через компьютер с помощью команды
-
-```cmd
-fastboot boot <ofox.img>
-```
-
-#### Запустите скрипт msc
-
-```cmd
-adb shell msc
-```
-
-### Назначение букв дискам
-
-#### Запустите диспетчер дисков Windows
-
-> Когда Note 9 Pro определится как диск
-
-```cmd
-diskpart
-```
-
-### Назначьте `X` на том Windows
-
-#### Выберите раздел для Windows
-> Используйте  `list volume` чтобы найти его, это будет "WINMIATOLL"
-
-```diskpart
-select volume <number>
-```
-
-#### Назначьте букву X
-```diskpart
-assign letter=x
-```
-
-#### Выйдите из diskpart
-```diskpart
-exit
-```
-
+### Загрузитесь в Windows
+> Прошейте образ UEFI в fastboot или используйте приложение WOA Helper
 
 ### Установка драйверов
+> Распакуйте архив с драйверами на вашем Redmi Note 9 Pro, затем откройте файл `OnlineUpdater.cmd`
 
-> Распакуйте драйвера из архива и откройте 'OfflineUpdater.cmd' файл. Впишите букву диска WINMIATOLL (Должно быть X) и нажмите enter.
+> Следуйте всем инструкциям, появляющимся на экране
 
-## Finished!
+> Если после установки **App Packages** вы увидите ошибку, проигнорируйте ее и перезагрузите устройство вручную после того, как на экране появится надпись **Done!**.
+
+## Готово!

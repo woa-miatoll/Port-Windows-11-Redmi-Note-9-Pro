@@ -11,8 +11,6 @@
 
 - [Мод рекавери](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
-- Мозги (Очень важно)
-
 ### Запустите ofox с компьютера при помощи команды
 ```cmd
 fastboot boot <ofox.img>
@@ -41,21 +39,13 @@ select volume $
 assign letter x
 ```
 
-#### Выберите раздел для ESP
-> Используйте `list volume`, чтобы найти его, замените **$** на номер тома  **ESPMIATOLL**.
-```diskpart
-select volume $
-```
-
-#### Назначьте букву Y
-```diskpart
-assign letter y
-```
-
 #### Выйдите из diskpart
 ```diskpart
 exit
 ```
+
+#### Форматирование Windows
+> Перейдите в Проводник Windows > Этот компьютер и выберите **WINMIATOLL**. Щелкните правой кнопкой мыши и отформатируйте диск как NTFS
 
 ### Установка Windows
 > замените путь `<path\to\install.esd>` на свой путь до install.esd (Может быть назван install.wim)
@@ -72,33 +62,13 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > Если в разделе **Installing App Packages** появятся какие-либо ошибки, не обращайте на них внимания и продолжайте
 
-### Создание загрузчика Windows
-```cmd
-bcdboot X:\Windows /s Y: /f UEFI
-```
+### Загрузка в Windows
+Перезагрузите телефон. Если вы попали в Android вместо Windows, прошейте UEFI еще раз с помощью WOA Helper
 
-## Разрешить не подписанные драйверы
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
-```
+#### Настройка Windows
+>  Теперь на вашем устройстве будет установлена Windows. Это займет некоторое время. В конце концов устройство перезагрузится, после чего запустится начальная установка (oobe)
 
-#### Отключение восстановления
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
-```
+> [!Note]
+> Чтобы не входить в учетную запись Microsoft, используйте "g" для ввода электронной почты и пароля. После этого Windows позволит вам создать локальную учетную запись
 
-#### Отключение проверок целостности
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
-```
-
-#### Проверьте тип панели
-> Запомните тип панели (Tianma или Huaxing), он понадобится вам позже.
-```cmd
-adb shell panel
-```
-
-### Перезагрузка в Android
-> Для установки дуал бута
-
-## [Последний шаг: Настройка Dualboot](dualboot-ru.md)
+## Готово!

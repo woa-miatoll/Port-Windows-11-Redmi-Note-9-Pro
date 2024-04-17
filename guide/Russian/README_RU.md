@@ -4,7 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/+ZZQCSx2n6Pk1M2Y9)
 
 ## Выберите язык
-[English](README.md) | [Español (Outdated)](/guide/Español/README_ES.md) | [Türkçe](/guide/Türkçe/README_TR.md) | **Русский**
+[English](README.md) | ~~[Español (Outdated)](/guide/Español/README_ES.md)~~ | ~~[Türkçe (Outdated)](/guide/Türkçe/README_TR.md)~~ | **Русский**
 
 ## ⚠️ Предупреждение
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
@@ -13,7 +13,6 @@
 
 **ЕСЛИ ВЫ БОИТЕСЬ МОДИФИЦИРОВАТЬ СВОЙ ТЕЛЕФОН ИЛИ БОИТЕСЬ ЕГО СЛОМАТЬ - НЕМЕДЛЕННО ПРЕКРАТИТЕ ЧИТАТЬ!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ, В СЛУЧАЕ ПОЛОМКИ ОТВЕТСТВЕННОСТЬ ЛЕЖИТ НА ВАС!!! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ!!!**
 
-
 ## Начнем
 - [Статус Проекта](/guide/Russian/status.md)
 
@@ -21,11 +20,14 @@
 
 - [Исправление ошибок](/guide/Russian/troubleshooting-ru.md)
 
-
 ## Разное
 - [Настройка дуал бута](/guide/Russian/dualboot-ru.md)
 
+- [Дополнительные материалы](/guide/Russian/materials-ru.md)
+
 - [Обновление Драйверов](/guide/Russian/update-ru.md)
+
+- [Переустановка](/guide/Russian/reinstall-ru.md)
 
 - [Удаление](/guide/Russian/restore-stock-ru.md)
 
@@ -38,4 +40,5 @@
 [<img alt="halal-beef" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78730004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/halal-beef)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
 [<img alt="Renegade Project Discord Members" src="https://images.weserv.nl/?url=https://cdn.discordapp.com/icons/736563593058713690/68f67bfddf4390b11effc99917b16338.webp?size=256&w=45&fit=cover&mask=circle&maxage=7d" />](https://discord.gg/XXBWfag)
+[<img alt="N1kroks" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/117468042?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/N1kroks)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)

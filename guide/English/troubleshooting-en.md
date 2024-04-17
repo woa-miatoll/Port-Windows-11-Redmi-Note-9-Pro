@@ -19,7 +19,7 @@ If mounting Windows produces an empty folder, you either don't have Windows inst
 ##### Finished!
 
 ## USB does not work
-Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode.
+Run [USB Host Control](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/usbhost) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode.
 
 ##### Finished!
 

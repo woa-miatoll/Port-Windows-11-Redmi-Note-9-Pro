@@ -93,7 +93,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
 #### Checking panel type
-> Remember your panel type (Tianma or EBBG), you will need this later
+> Remember your panel type (Tianma or Huaxing), you will need this later
 ```cmd
 adb shell panel
 ```
