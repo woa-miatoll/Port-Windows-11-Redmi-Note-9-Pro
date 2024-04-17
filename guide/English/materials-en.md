@@ -29,7 +29,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!Warning]
 > Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode.
+Run [USB Host Control](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/usbhost) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode.
 
 ##### Finished!
 

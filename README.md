@@ -22,7 +22,7 @@ This project is in an early stage, all the files here have been contributed by o
 ## Miscellaneous
 - [Dualboot setup](guide/English/dualboot-en.md)
 
-- [Additional materials](guide/materials-en.md)
+- [Additional materials](guide/English/materials-en.md)
 
 - [Driver updating instructions](guide/English/update-en.md)
 
