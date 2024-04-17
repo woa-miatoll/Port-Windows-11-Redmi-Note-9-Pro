@@ -8,64 +8,18 @@
 ### Gereksinimler
 
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
-- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-#### OFOX Kurtarmayı PC üzerinden şu komutla başlatın
+## Windows'u Başlatın
 
-```cmd
-fastboot boot <ofox.img>
-```
-
-> OFOX zaten yüklüyse, başlangıçta güç ve ses+ düğmelerini basılı tutmanız yeterlidir
-
-
-#### Komutu Çalıştırın
-
-```cmd
-adb shell msc
-```
-
-### Disklere harf atama
-
-#### Windows disk yönetimini açın
-
-> Note 9 Pro bir disk olarak algılandığında 
-
-```cmd
-diskpart
-```
-
-
-### Windows birimine `X` harfini atama
-
-#### Telefonun Windows birimini seçin
-> Bulmak için `list volume` kullanın, "WINMIATOLL" adlı birimdir.
-
-```diskpart
-select volume <sayı>
-```
-
-#### X harfini atama
-```diskpart
-assign letter=x
-```
-
-#### Diskpart'tan çık
-```diskpart
-exit
-```
-
+UEFI görüntüsünü fastboot'ta flaşlayın veya WOA Helper uygulamasını kullanın
 
 ### Sürücüleri Kurma
 
-Sürücüler klasöründen OfflineUpdater.bat dosyasını açın ve X: yazın
+> Redmi Note 9 Pro'nuzdaki sürücüler dosyasını çıkarın ve çıkarılan klasörü açın, ardından `OnlineUpdater.cmd` dosyasını açın
 
+> Ekranda verilen tüm talimatları izleyin
 
-### Windows önyüklenebilir UEFI İmajı ile önyükleme
-
-```
-fastboot flash boot <uefi.img>
-```
+> **App Packages** yükledikten sonra bir hata görürseniz, bunu görmezden gelin ve **Done!** dedikten sonra cihazınızı manuel olarak yeniden başlatın.
 
 ## Bitti!
