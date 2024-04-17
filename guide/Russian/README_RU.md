@@ -1,16 +1,12 @@
 <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
-
 # Запуск Windows на Redmi Note 9 Pro
-
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/+ZZQCSx2n6Pk1M2Y9)
 
 ## Выберите язык
-
-[English](README.md) **|** [Español (Outdated)](README_ES.md) **|** [Türkçe](README_TR.md) **|** Русский
+[English](README.md) | [Español (Outdated)](/guide/Español/README_ES.md) | [Türkçe](/guide/Türkçe/README_TR.md) | **Русский**
 
 ## ⚠️ Предупреждение
-
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мертвые чипы управления питанием, мертвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
 
 Установка Windows - опасный процесс, делайте это на свой страх и риск и осторожно следуйте инструкции. Этот проект находится на ранней стадии, все файлы здесь были предоставлены другими пользователями, здесь вы найдете руководство с рабочими файлами, которые нам удалось получить. Это деликатный процесс, делайте это на свой страх и риск и внимательно следуйте всем шагам!
@@ -19,21 +15,19 @@
 
 
 ## Начнем
+- [Статус Проекта](/guide/Russian/status.md)
 
-- [Статус Проекта](guide/Russian/status.md)
+- [Установка](/guide/Russian/1-partition-ru.md)
 
-- [Установка](guide/Russian/1-partition-ru.md)
-
-- [Исправление ошибок](guide/Russian/troubleshooting-ru.md)
+- [Исправление ошибок](/guide/Russian/troubleshooting-ru.md)
 
 
 ## Разное
+- [Настройка дуал бута](/guide/Russian/dualboot-ru.md)
 
-- [Настройка дуал бута](guide/Russian/dualboot-ru.md)
+- [Обновление Драйверов](/guide/Russian/update-ru.md)
 
-- [Обновление Драйверов](guide/Russian/update-ru.md)
-
-- [Удаление](guide/Russian/restore-stock-ru.md)
+- [Удаление](/guide/Russian/restore-stock-ru.md)
 
 ## Разработчики
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
@@ -44,3 +38,4 @@
 [<img alt="halal-beef" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78730004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/halal-beef)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
 [<img alt="Renegade Project Discord Members" src="https://images.weserv.nl/?url=https://cdn.discordapp.com/icons/736563593058713690/68f67bfddf4390b11effc99917b16338.webp?size=256&w=45&fit=cover&mask=circle&maxage=7d" />](https://discord.gg/XXBWfag)
+[<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
