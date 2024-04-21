@@ -92,12 +92,6 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
-#### Checking panel type
-> Remember your panel type (Tianma or Huaxing), you will need this later
-```cmd
-adb shell panel
-```
-
 ### Reboot to Android
 > To set up dualboot
 

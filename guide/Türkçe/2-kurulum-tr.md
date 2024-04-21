@@ -11,7 +11,7 @@
 ### Gereksinimler
 
 - [ARM üzerinde Windows ISO'su (Windows 11 önerilir)](https://uupdump.net/)
-- [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
+- [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi)
 - [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 - Beyin (Çok önemli)
 
@@ -99,13 +99,6 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 ```
 
 ## Windows'a önyükleme
-
-### Ne tür bir panele sahip olduğunuzu kontrol edin
-
-> Komut istemini açın
-```cmd
-adb shell panel
-```
 
 ### `<uefi.img>` dosyasını cihaza taşıyın
 

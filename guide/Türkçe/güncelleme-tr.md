@@ -7,7 +7,8 @@
 
 ### Gereksinimler
 
-- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
+- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi)
+- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 - [Sürücüler](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 ## Windows'u Başlatın

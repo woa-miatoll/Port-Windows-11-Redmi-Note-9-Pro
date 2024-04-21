@@ -92,12 +92,6 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
-#### Проверьте тип панели
-> Запомните тип панели (Tianma или Huaxing), он понадобится вам позже.
-```cmd
-adb shell panel
-```
-
 ### Перезагрузка в Android
 > Для установки дуал бута
 

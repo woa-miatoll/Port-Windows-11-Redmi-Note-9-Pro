@@ -9,7 +9,7 @@
 
 ### Gereksinimler
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3)
+- [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi)
 - [WOA Helper app](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/woahelper.apk)
 - [StA Installer](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/StA_Installer_miatoll.exe)
 
@@ -20,7 +20,7 @@
 > Dosyaları Windows klasörüne taşıyamıyorsanız, Windows'u yeniden başlatmak yerine kapatmışsınız demektir. Bu sorunu çözmek için, Windows'a geri dönün ve yeniden başlatmayı kullanın, ardından yeniden başlatıldığında kurtarmaya önyükleme yapın ve Android'e dönmek için `Windows` önyükleme yedeğinizi kullanın.
 
 - [WOA Helper Uygulamasını](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/woahelper.apk) yükleyin ve kurun ardından açın ve root erişimi verin
-- [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/UefiV3) Uefi imajını yükleyin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içine yerleştirin, bu klasör mevcut değilse oluşturun.
+- [UEFI İmajı](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) Uefi imajını yükleyin ve dahili depolama alanınızdaki `UEFI` adlı klasörün içine yerleştirin, bu klasör mevcut değilse oluşturun.
 - WOA Helper uygulamasına dönün ve `Back up Android boot` düğmesine basın. Hem `Windows` hem de `Android` seçeneklerini seçin.
 - `Mount Windows` butonuna basın , ardından  [StA_Installer_miatoll.exe](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/dualboot/StA_Installer_miatoll.exe) dosyasını indirip dahili depolama alanınızda yeni oluşturulan `Windows` klasörüne taşıyın.
 - WOA Helper uygulamasına dönün ve `Quickboot to Windows` tuşuna basın.
