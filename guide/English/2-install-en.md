@@ -48,6 +48,7 @@ assign letter x
 select volume $
 ```
 
+#### Assign the letter Y
 ```diskpart
 assign letter y
 ```
