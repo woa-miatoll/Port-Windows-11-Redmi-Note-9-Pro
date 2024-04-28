@@ -3,7 +3,7 @@
 # Running Windows on the Redmi Note 9 Pro
 
 ## Choose your language
-**English** | ~~[Español (Outdated)](/guide/Español/README_ES.md)~~ | [~~Türkçe~~ (Güncel Değil Yakında Güncellenecek)](/guide/Türkçe/README_TR.md) | [Русский](/guide/Russian/README_RU.md)
+**English** | ~~[Español (Outdated)](/guide/Español/README_ES.md)~~ | [~~Türkçe~~](/guide/Türkçe/README_TR.md) (Güncel Değil Yakında Güncellenecek) | [Русский](/guide/Russian/README_RU.md)
 
 ## ⚠️ Warning
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
