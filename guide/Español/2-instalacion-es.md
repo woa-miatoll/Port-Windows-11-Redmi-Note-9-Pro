@@ -10,7 +10,7 @@
 
 - [Windows para ARM (Windows 11 es el recomendado)](https://uupdump.net/)
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi)
-- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.9)
+- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 ### Ejecutar el script
 ```cmd

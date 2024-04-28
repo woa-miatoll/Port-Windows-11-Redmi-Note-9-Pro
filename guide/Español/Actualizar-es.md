@@ -9,7 +9,7 @@
 
 - [UEFI](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi)
 - [OFOX Modificado](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
-- [Drivers](https://github.com/Icesito68/7xx-Drivers/releases/tag/Miatoll-Drivers-V1.0.5)
+- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 #### Iniciar TWRP desde el pc con el comando
 

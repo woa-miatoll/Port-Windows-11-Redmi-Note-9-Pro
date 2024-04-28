@@ -21,7 +21,7 @@
 >
 > Aynı komutu iki kez çalıştırmayın.
 >
-> Bir hata yaptığınızı düşünüyorsanız TELEFONUNUZU YENİDEN BAŞLATMAYIN, [Telegram](https://t.me/+ZZQCSx2n6Pk1M2Y9) adresinden yardım isteyin
+> Bir hata yaptığınızı düşünüyorsanız TELEFONUNUZU YENİDEN BAŞLATMAYIN, [Telegram](https://t.me/woamiatoll) adresinden yardım isteyin
 >
 > Tüm komutları aynı anda çalıştırmayın, sırayla çalıştırın!
 >

@@ -19,7 +19,7 @@
 >
 > Do not run the same command twice
 >
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/+ZZQCSx2n6Pk1M2Y9)
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woamiatoll)
 >
 > Do not run all commands at once, execute them in order!
 >

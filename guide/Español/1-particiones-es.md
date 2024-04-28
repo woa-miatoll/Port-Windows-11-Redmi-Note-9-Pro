@@ -16,7 +16,7 @@ Estos pasos son necesarios para crear las particiones donde pondremos Windows
 > **Advertencia** si eliminas alguna partición via diskpart más adelante o ahora, Windows enviará un comando ufs que se malinterpretará y borrará toda la ufs
 - Estos comandos han sido testeados.
 - No ejecutes el mismo comando dos veces
-- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/+ZZQCSx2n6Pk1M2Y9)
+- NO REINICIES TU DISPOSITIVO si crees que cometiste un error, preguntanos en el [Chat de Telegram](https://t.me/woamiatoll)
 
 #### ⚠️ ¡No ejecutes todos los comandos a la vez, ejecútalos en orden!
 

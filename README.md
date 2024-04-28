@@ -1,6 +1,7 @@
 <img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
 
 # Running Windows on the Redmi Note 9 Pro
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woamiatoll)
 
 ## Choose your language
 **English** | ~~[Español (Outdated)](/guide/Español/README_ES.md)~~ | [~~Türkçe~~](/guide/Türkçe/README_TR.md) (Güncel Değil Yakında Güncellenecek) | [Русский](/guide/Russian/README_RU.md)

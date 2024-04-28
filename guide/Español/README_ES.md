@@ -2,7 +2,7 @@
 
 # Windows en el Redmi Note 9 Pro
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/+ZZQCSx2n6Pk1M2Y9)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woamiatoll)
 
 ## Elige tu idioma
 [English](README.md) | **Español (Outdated)**| [Türkçe](/guide/Türkçe/README_TR.md) | [Русский](/guide/Russian/README_RU.md)
