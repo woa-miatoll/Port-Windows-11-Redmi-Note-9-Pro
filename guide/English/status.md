@@ -22,7 +22,7 @@ Beta, Most of the hardware works, but some components do not work yet.
 - [X] Touchscreen
 - [x] UFS
 - [x] USB
-- [x] Wi-Fi ```You have to install it manually after starting Windows```
+- [x] Wi-Fi
 
 ##### For LTE to work, you need:
 1. Boot into android with SIM card inserted in slot 1.
