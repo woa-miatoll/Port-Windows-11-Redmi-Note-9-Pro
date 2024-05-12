@@ -25,10 +25,10 @@
 >
 > DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-### Boot OFOX recovery
+### Flash OFOX recovery
 > While in fastboot run
 ```cmd
-fastboot boot <ofox.img>
+fastboot flash recovery <ofox.img>
 ```
 
 #### Run the partitioning script
