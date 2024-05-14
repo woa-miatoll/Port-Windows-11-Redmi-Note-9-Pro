@@ -17,18 +17,12 @@ Beta, Most of the hardware works, but some components do not work yet.
 - [ ] Charging 
 - [x] Display
 - [x] GPU
-- [X] LTE ```Only SIM 1 and you need to do the steps below```
-- [ ] SD 
+- [X] LTE ```Only SIM 1```
+- [X] SD  ```Only if insert sd before OS boot and don't eject sd```
 - [X] Touchscreen
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
-
-##### For LTE to work, you need:
-1. Boot into android with SIM card inserted in slot 1.
-2. Reboot into fastboot and flash the latest version of uefi.img
-3. Boot into windows and everything should work
-4. It will stop working if you remove the sim card tray, or switch sim slot in windows, and you will have to do these steps again
 
 #### Sensors
 - [ ] Accelerometer
