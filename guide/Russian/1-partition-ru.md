@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro">
+<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
 
-# Запуск Windows на Redmi Note 9 Pro
+# Запуск Windows на Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro
 
 ## Разметка устройства
 
@@ -10,7 +10,6 @@
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 - Мозги (Очень важно)
-
 
 ### Примечание:
 > [!Warning]
@@ -41,6 +40,5 @@ adb shell partition $
 
 #### Проверьте, запускается ли Android
 Просто перезапустите телефон и убедитесь, что Android запускается
-
 
 ## [Следующий шаг: установка Windows](2-install-ru.md)
