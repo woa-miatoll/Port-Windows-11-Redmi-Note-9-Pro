@@ -17,18 +17,12 @@ Beta, Çoğu donanım çalışıyor, ancak bazı şeyler henüz çalışmıyor.
 - [ ] Şarj Olma 
 - [x] Ekran
 - [x] GPU
-- [x] Mobil Veri ``Yalnızca SIM 1 çalışıyor ve aşağıdaki adımları uygulamanız gerekiyor`` 
-- [ ] SD 
+- [x] Mobil Veri ``Yalnızca SIM 1`` 
+- [X] SD ``Yalnızca İşletim Sistemi başlatılmadan sd kart takılırsa ve sd kart çıkartılmaz ise``
 - [X] Dokunmatik
 - [x] UFS
 - [x] USB
-- [x] Wi-Fi ```Windows'u başlattıktan sonra manuel olarak yüklemeniz gerekiyor```
-
-##### Mobil Veri'nin çalışması için şunlara ihtiyacınız vardır:
-1. SIM kart 1. yuvaya takılıyken Android'e önyükleme yapın.
-2. Fastboot'a yeniden başlatın ve uefi.img'nin en son sürümünü flaşlayın
-3. Windows'a önyükleme yapın ve her şey çalışmalıdır
-4. SIM kart tepsisini çıkarırsanız veya Windows'ta sim yuvasını değiştirirseniz çalışmayı durduracak ve bu adımları tekrar yapmanız gerekecektir
+- [x] Wi-Fi 
 
 #### Sensörler
 - [ ] İvmeölçer
