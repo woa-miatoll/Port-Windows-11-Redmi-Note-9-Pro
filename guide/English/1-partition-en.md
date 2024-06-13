@@ -22,13 +22,21 @@
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woamiatoll)
 >
 > Do not run all commands at once, execute them in order!
->
-> DO NOT MAKE ANY MISTAKE!!! YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-### Flash OFOX recovery
-> While in fastboot run
+### Opening CMD as an admin
+> Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
+>
+> It is recommended to keep this window open and use it throughout the entire guide.
+> 
+> Replace `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
 ```cmd
-fastboot flash recovery <ofox.img>
+cd path\to\platform-tools
+```
+
+#### Flash OFOX recovery
+> Boot into fastboot mode, then run the following command, replacing `path\to\ofox.img` with the actual path of the image
+```cmd
+fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 #### Run the partitioning script
@@ -41,6 +49,8 @@ adb shell partition $
 
 #### Check if Android still starts
 Just restart the phone, and see if Android still works
-
+```cmd
+adb reboot
+```
 
 ## [Next step: Installing Windows](2-install-en.md)
