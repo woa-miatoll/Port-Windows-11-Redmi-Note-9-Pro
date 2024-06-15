@@ -13,8 +13,8 @@ If you want to relock your bootloader you'll need your partition table to be sto
 
 ### Prerequisites
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Binaries)
+- [```ADB & Fastboot```](https://developer.android.com/studio/releases/platform-tools)
+- [```gpt_both0.bin```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Binaries)
 
 ### Restore GPT
 > Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.

@@ -5,11 +5,11 @@
 ## Установка Windows
 
 ### Требования
-- [Arm образ Windows](https://worproject.com/esd)
+- [```ARM Windows ESD```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
 
-- [Драйвера](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- [```Драйвера```](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-- [Мод рекавери](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
+- [```Мод рекавери```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
 ### Запустите ofox с компьютера при помощи команды
 ```cmd
@@ -48,12 +48,12 @@ exit
 > Перейдите в Проводник Windows > Этот компьютер и выберите **WINMIATOLL**. Щелкните правой кнопкой мыши и отформатируйте диск как NTFS
 
 ### Установка Windows
-> замените путь `<path\to\install.esd>` на свой путь до install.esd (Может быть назван install.wim)
+> замените путь `путь\до\install.esd` на свой путь до install.esd (Может быть назван install.wim)
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:путь\до\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Если вы получили `Error 87`, проверьте индекс образа с помощью команды `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, затем замените `index:6` на фактический номер индекса Windows 11 Pro в вашем образе
+> Если вы получили `Error 87`, проверьте индекс образа с помощью команды `dism /get-imageinfo /ImageFile:путь\до\install.esd`, затем замените `index:6` на фактический номер индекса Windows 11 Pro в вашем образе
 
 ### Установка Драйверов
 > Распакуйте драйвера из архива и откройте 'OfflineUpdater.cmd' 

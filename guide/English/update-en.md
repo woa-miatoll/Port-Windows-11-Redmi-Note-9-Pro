@@ -5,7 +5,7 @@
 ## Updating drivers
 
 ### Prerequisites
-- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- [```Drivers```](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 ### Boot into Windows
 > Flash the UEFI image in fastboot or use the WOA Helper app

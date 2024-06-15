@@ -5,17 +5,18 @@
 ## Установка Windows
 
 ### Требования
-- [Arm образ Windows](https://worproject.com/esd)
+- [```ARM Windows ESD```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
 
-- [Драйвера](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- [```Драйвера```](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-- [Мод рекавери](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
+- [```Мод рекавери```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
-- Мозги (Очень важно)
+- ```Мозги (Очень важно)```
 
 ### Запустите ofox с компьютера при помощи команды
+> Замените `путь\до\recovery.img` на фактический путь к образу recovery
 ```cmd
-fastboot boot <ofox.img>
+fastboot boot путь\до\recovery.img
 ```
 
 #### Выполните скрипт msc
@@ -58,41 +59,26 @@ exit
 ```
 
 ### Установка Windows
-> замените путь `<path\to\install.esd>` на свой путь до install.esd (Может быть назван install.wim)
+> замените путь `путь\до\install.esd` на свой путь до install.esd (Может быть назван install.wim)
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:путь\до\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> Если вы получили `Error 87`, проверьте индекс образа с помощью команды `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, затем замените `index:6` на фактический номер индекса Windows 11 Pro в вашем образе
+> Если вы получили `Error 87`, проверьте индекс образа с помощью команды `dism /get-imageinfo /ImageFile:путь\до\install.esd`, затем замените `index:6` на фактический номер индекса Windows 11 Pro в вашем образе
 
 ### Установка Драйверов
 > Распакуйте драйвера из архива и откройте 'OfflineUpdater.cmd' 
 
 > Если он попросит вас ввести букву, введите букву диска **WINMIATOLL** (это должно быть X), затем нажмите enter.
 
-> Если в разделе **Installing App Packages** появятся какие-либо ошибки, не обращайте на них внимания и продолжайте
-
 ### Создание загрузчика Windows
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-## Разрешить не подписанные драйверы
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
-```
-
-#### Отключение восстановления
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
-```
-
-#### Отключение проверок целостности
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
-```
-
 ### Перезагрузка в Android
-> Для установки дуал бута
+```cmd
+adb reboot
+```
 
 ## [Последний шаг: Настройка Dualboot](dualboot-ru.md)

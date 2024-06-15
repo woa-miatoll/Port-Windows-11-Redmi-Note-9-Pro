@@ -33,8 +33,14 @@
 
 ##### Готово!
 
+## Отключение secureboot
+> [!Warning]
+> Делайте это только в случае необходимости!
+
+> [Руководство по отключению secureboot](disable-secureboot-ru.md)
+
 ## Установите Microsoft Office / Microsoft 365
-- Скачайте этот [файл](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) на телефон
+- Скачайте этот [файл](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) на телефон
 - Нажмите пкм на файле iso и выберите "Смонтировать", чтобы открыть его в проводнике
 - Дважды нажмите на ```Office Tool Plus.exe``` чтобы запустить мастер установки
 - В появившемся окне нажмите `Да`

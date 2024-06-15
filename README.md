@@ -4,14 +4,17 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woamiatoll)
 
 ## Choose your language
-**English** | ~~[Español (Outdated)](/guide/Español/README_ES.md)~~ | [~~Türkçe~~](/guide/Türkçe/README_TR.md) (Güncel Değil Yakında Güncellenecek) | [Русский](/guide/Russian/README_RU.md)
+**```English```**  | [```Русский```](/guide/Russian/README_RU.md)
 
 ## ⚠️ Warning
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
+This project is in development stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
 **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+
+> [!WARNING]
+> **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM!**
 
 ## Get started
 - [Project status](guide/English/status.md)
@@ -23,7 +26,7 @@ This project is in an early stage, all the files here have been contributed by o
 ## Miscellaneous
 - [Dualboot setup](guide/English/dualboot-en.md)
 
-- [Additional materials](guide/English/materials-en.md)
+- [Additional materials](guide/English/additional-materials-en.md)
 
 - [Driver updating instructions](guide/English/update-en.md)
 

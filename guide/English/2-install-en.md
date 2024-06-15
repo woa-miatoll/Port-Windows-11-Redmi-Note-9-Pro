@@ -5,13 +5,13 @@
 ## Installing Windows
 
 ### Prerequisites
-- Brain (Very important)
+- ```Brain (Very important)```
 
-- [Windows on ARM image](https://worproject.com/esd)
+- [```ARM Windows ESD```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
 
-- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- [```Drivers```](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
+- [```Modded OFOX```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
 ### Boot OFOX recovery
 > While in fastboot run
@@ -59,42 +59,27 @@ exit
 ```
 
 ### Installing Windows
-> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
+> Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim)
 ```cmd
-dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
-> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
+> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
 > If it asks you to enter a letter, enter the drive letter of **WINMIATOLL** (which should be X), then press enter
 
-> If any errors appear under **Installing App Packages**, ignore them and continue
-
 #### Create Windows bootloader files
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Enabling test signing
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
-```
-
-#### Disabling recovery
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
-```
-
-#### Disabling integrity checks
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
-```
-
 ### Reboot to Android
-> To set up dualboot
+```cmd
+adb reboot
+```
 
 ## [Last step: Setting up dualboot](dualboot-en.md)
 

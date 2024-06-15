@@ -5,11 +5,11 @@
 ## Installing Windows
 
 ### Prerequisites
-- [Windows on ARM image](https://worproject.com/esd)
+- [```ARM Windows ESD```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
 
-- [Drivers](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- [```Drivers```](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
-- [Modded OFOX](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
+- [```Modded OFOX```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
 ### Boot OFOX recovery
 > While in fastboot run

@@ -12,8 +12,8 @@
 
 ### Требования
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Binaries)
+- [```ADB & Fastboot```](https://developer.android.com/studio/releases/platform-tools)
+- [```gpt_both0.bin```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Binaries)
 
 ### Восстановление GPT
 > Замените ```<gpt_both0.bin>``` путём к файл ```gpt_both0.bin```.

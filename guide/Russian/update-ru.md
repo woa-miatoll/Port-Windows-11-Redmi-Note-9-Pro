@@ -5,7 +5,7 @@
 ## Обновление драйверов
 
 ### Требования
-- [Драйвера](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- [```Драйвера```](https://github.com/N1kroks/7xx-Drivers/releases/latest)
 
 ### Загрузитесь в Windows
 > Прошейте образ UEFI в fastboot или используйте приложение WOA Helper
