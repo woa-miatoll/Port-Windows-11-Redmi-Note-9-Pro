@@ -19,7 +19,7 @@ This project is in development stage, all the files here have been contributed b
 ## Get started
 - [Project status](guide/English/status.md)
 
-- [Installation instructions](guide/English/1-partition-en.md)
+- [Installation instructions](guide/English/installation-en.md)
 
 - [Troubleshooting](guide/English/troubleshooting-en.md)
 

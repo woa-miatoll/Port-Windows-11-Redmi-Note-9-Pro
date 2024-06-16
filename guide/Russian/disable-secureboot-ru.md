@@ -13,7 +13,7 @@
 
 - [```Мод рекавери```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
 
-- [```UEFI (Secureboot disabled)```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi)
+- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (Вам нужен NoSecureBoot)
 
 ## Плюсы и минусы secureboot
 > По умолчанию secureboot включен в этом гайде.

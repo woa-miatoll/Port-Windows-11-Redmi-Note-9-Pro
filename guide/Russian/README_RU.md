@@ -19,7 +19,7 @@
 ## Начнем
 - [Статус Проекта](/guide/Russian/status.md)
 
-- [Установка](/guide/Russian/1-partition-ru.md)
+- [Установка](/guide/Russian/installation-ru.md)
 
 - [Исправление ошибок](/guide/Russian/troubleshooting-ru.md)
 

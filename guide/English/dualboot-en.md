@@ -9,7 +9,7 @@
 ### Prerequisites
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi)
+- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (You need Secureboot)
 
 - [```WOA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
