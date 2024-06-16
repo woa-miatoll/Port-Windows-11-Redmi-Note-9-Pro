@@ -59,6 +59,9 @@ exit
 ```
 
 ### Установка Windows
+> [!Warning]
+> НЕ ИСПОЛЬЗУЙТЕ 24H2!!!
+
 > замените путь `путь\до\install.esd` на свой путь до install.esd (Может быть назван install.wim)
 ```cmd
 dism /apply-image /ImageFile:путь\до\install.esd /index:6 /ApplyDir:X:\
