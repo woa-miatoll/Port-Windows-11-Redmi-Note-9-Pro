@@ -7,7 +7,7 @@
 ### Требования
 - [```FFU Образ Windows```](https://t.me/WoaMiatollFFU)
 
-- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (Вам нужен NoSecureBoot)
+- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (Вам нужен SecureBoot)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
