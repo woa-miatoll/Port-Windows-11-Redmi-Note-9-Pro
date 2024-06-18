@@ -32,9 +32,9 @@ cd path\to\platform-tools
 ```
 
 ### Boot UEFI
-> Boot into fastboot mode, then run the following command, replacing `path\to\xiaomi-miatoll_NoSecureBoot.img` with the actual path of UEFI
+> Boot into fastboot mode, then run the following command, replacing `path\to\xiaomi-miatoll_SecureBoot.img` with the actual path of UEFI
 ```cmd
-fastboot boot path\to\xiaomi-miatoll_NoSecureBoot.img
+fastboot boot path\to\xiaomi-miatoll_SecureBoot.img
 ```
 > Press volume down button until you see the qr code and the wrench icon
 

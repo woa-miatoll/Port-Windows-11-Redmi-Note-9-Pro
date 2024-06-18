@@ -32,9 +32,9 @@ cd путь\до\platform-tools
 ```
 
 ### Запустите UEFI
-> Загрузитесь в режим fastboot, затем выполните следующую команду, Заменив `путь\до\xiaomi-miatoll_NoSecureBoot.img` на фактический путь к образу UEFI
+> Загрузитесь в режим fastboot, затем выполните следующую команду, Заменив `путь\до\xiaomi-miatoll_SecureBoot.img` на фактический путь к образу UEFI
 ```cmd
-fastboot boot путь\до\xiaomi-miatoll_NoSecureBoot.img
+fastboot boot путь\до\xiaomi-miatoll_SecureBoot.img
 ```
 > Зажмите кнопку уменьшения громкости, пока не увидите qr код и значок с гаечным ключом
 
