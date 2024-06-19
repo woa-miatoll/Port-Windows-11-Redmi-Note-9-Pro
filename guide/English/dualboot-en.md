@@ -11,26 +11,28 @@
 
 - [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (You need Secureboot)
 
-- [```WOA Helper app```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```StA installer```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/dualboot)
+
+- [```M3K WoA Helper app```](https://github.com/woa-vayu-archive/WoA-Helper-M3K/releases/latest)
 
 ### Setup - Android
-- Download and install the WOA Helper app, then open it and grant it root access.
-- Download the **UEFI** image for your panel and place it inside the folder named `UEFI` in your internal storage.
-- Open the WOA Helper app and use the STA CREATOR in WOA TOOLBOX.
+- Download and install the M3K WoA Helper app, then open it and grant it root access.
+- Download the **UEFI** image and place it inside the folder named `UEFI` in your internal storage.
+- Press the `Mount Windows` button, then download and move StA_Installer_miatoll.exe to the newly created `Windows` folder in your internal storage.
 > [!Important]
 > If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the StA files, which are also generated in your internal storage.
 >
 > Do the same thing if the folder is read-only.
-- Press the QUICKBOOT TO WINDOWS button.
+- Return to the M3K WoA Helper and press `QuickBoot to Windows`.
 
 ### Setup - Windows
-- Navigate to `C:\sta` and create a shortcut of sta.exe to your desktop, if one isn't already present
+- Navigate to `C:\StA_Installer_miatoll.exe` and run it.
 
 #### Booting to Android
-- Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+- Run the new shortcut on your desktop or start menu
 
 #### Booting to Windows
-- Press `Quickboot to Windows` inside the app, or use the newly created toggle in your quick settings panel
+- Press `Quickboot to Windows` inside the M3K WoA Helper
   
 ## Finished!
 
