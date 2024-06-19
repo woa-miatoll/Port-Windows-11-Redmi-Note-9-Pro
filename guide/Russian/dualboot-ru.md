@@ -24,7 +24,7 @@
 - Вернитесь в M3K WoA Helper и нажмите `QuickBoot to Windows`.
 
 ### Настройка - Windows
-- Перейдите  к `C:\StA_Installer_miatoll.exe` и запустите его.
+- Перейдите  к `C:\StA_Installer_miatoll.exe` и запустите его от имени администратора.
 
 #### Загрузка в Android
 - Запустите новый ярлык на рабочем столе или в меню Пуск.
