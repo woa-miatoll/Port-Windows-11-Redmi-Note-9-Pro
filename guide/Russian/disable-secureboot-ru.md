@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
+<img align="right" src="https://github.com/woa-miatoll/Port-Windows-11-Redmi-Note-9-Pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
 
 # Windows на Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro
 
@@ -11,10 +11,7 @@
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Мод рекавери```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
-
-- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (Вам нужен SecureBoot)
-
+- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest) (Вам не нужен secureboot disabled)
 ## Плюсы и минусы secureboot
 > По умолчанию secureboot включен в этом гайде.
 
@@ -32,11 +29,8 @@
 
 ## Выключение Secureboot
 
-### Запустите ofox с компьютера при помощи команды
-> Замените `путь\до\recovery.img` на фактический путь к образу recovery
-```cmd
-fastboot boot путь\до\recovery.img
-```
+### Перезагрузитесь в рекавери
+> Перезагрузите телефон в рекавери
 
 #### Выполните скрипт msc
 ```cmd

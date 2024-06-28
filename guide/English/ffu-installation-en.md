@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
+<img align="right" src="https://github.com/woa-miatoll/Port-Windows-11-Redmi-Note-9-Pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
 
 # Running Windows on the Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro
 
@@ -7,11 +7,11 @@
 ### Prerequisites
 - [```FFU Windows Image```](https://t.me/WoaMiatollFFU)
 
-- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (You need Secureboot)
+- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest) (You don't need disable secureboot)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```FFU Tools```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/download/FFUTools/FFU-Loader-Tools.zip)
+- [```FFU Tools```](https://github.com/WOA-Project/SurfaceDuo-Guides/raw/main/Files/FFU-Loader-Tools.zip)
 
 ### Notes:
 > [!Warning]

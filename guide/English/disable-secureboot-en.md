@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
+<img align="right" src="https://github.com/woa-miatoll/Port-Windows-11-Redmi-Note-9-Pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
 
 # Windows on the Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro
 
@@ -7,13 +7,11 @@
 > Follow this guide only if you want to disable secureboot.
 
 ### Prerequisites
-- ```Brain (Very important)```
-
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Modded OFOX```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/modded-ofox)
+- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest) (You don't need disable secureboot)
 
-- [```UEFI```](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/Uefi) (You need Secureboot)
+- ```Brain (Very important)```
 
 ## Pros and cons of secureboot
 > By default, secureboot is enabled in this guide
@@ -32,11 +30,8 @@
 
 ## Disabling secureboot
 
-#### Boot to the recovery
-> Replace `path\to\recovery.img` with the actual path of the recovery image
-```cmd
-fastboot boot path\to\recovery.img
-```
+### Reboot phone to recovery
+> Reboot phone into recovery
 
 #### Activate mass storage mode script
 ```cmd

@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
+<img align="right" src="https://github.com/woa-miatoll/Port-Windows-11-Redmi-Note-9-Pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
 
 # Running Windows on the Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro
 
@@ -15,11 +15,6 @@ If mounting Windows produces an empty folder, you either don't have Windows inst
 - To solve this, boot to Windows and then press "restart", then as the screen shuts off boot to TWRP and from there load up Android.
 - Or, disable hibernation in Windows using [this](https://github.com/n00b69/woa-beryllium/releases/tag/1.0) script 
 > Alternatively, if you have already set up the Switch to Android app, simply use this to switch to Android.
-
-##### Finished!
-
-## USB does not work
-Run [USB Host Control](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/usbhost) to enable/disable USB host mode and confirm that you want to disable/enable USB host mode.
 
 ##### Finished!
 

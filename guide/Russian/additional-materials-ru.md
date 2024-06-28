@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
+<img align="right" src="https://github.com/woa-miatoll/Port-Windows-11-Redmi-Note-9-Pro/blob/main/Miatoll.png" width="350" alt="Windows 11 Running On A Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro">
 
 # Запуск Windows на Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro
 
@@ -22,14 +22,6 @@
 - Выберите диск с буквой D ```select volume $```, заменяя "$" на номер тома
 - Удалите букву с помощью ```remove letter d```
 - Выйдите из diskpart с помощью ```exit```
-
-##### Готово!
-
-## Переключение режима USB-хоста
-> [!Warning]
-> Отключите режим USB-хоста, если вы используете USB хаб с питанием, так как это может необратимо повредить устройство. Если вы не используете концентратор USB с питанием, включите режим хоста USB, иначе вы не сможете использовать устройства USB
-
-Запустите [USB Host Control](https://github.com/Rubanoxd/Port-Windows-11-redmi-note-9_pro/releases/tag/usbhost) чтобы включить/выключить режим хоста USB, и подтвердите, что вы хотите отключить/включить режим хоста USB
 
 ##### Готово!
 
