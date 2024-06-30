@@ -7,56 +7,39 @@
 ### Prerequisites
 - [```FFU Windows Image```](https://t.me/WoaMiatollFFU)
 
-- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest) (You don't need disable secureboot)
-
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
-
-- [```FFU Tools```](https://github.com/WOA-Project/SurfaceDuo-Guides/raw/main/Files/FFU-Loader-Tools.zip)
+- [```WOA Device Manager```](https://github.com/woa-miatoll/WOA-Device-Manager/releases/latest)
 
 ### Notes:
 > [!Warning]
 > All your data will be erased! Back up now if needed.
 >
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woamiatoll)
+
+### Install WOA Device Manager
+> Download **WOA Device Manager** and extract the folder somewhere.
 >
-> Do not run all commands at once, execute them in order!
+> Then double tap the Install.cmd file and follow the on-screen instructions.
 >
-> **PLEASE DON'T USE OUTDATED VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM!**
+> Then open WOA Device Manager.
 
-### Opening CMD as an admin
-> Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
-> 
-> Replace `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
-```cmd
-cd path\to\platform-tools
-```
+### Getting to FFU Loader
+> Plug your phone into your computer inside Android™.
+>
+> Then go to "Manual Mode" section in WOA Device Manager.
+>
+> Click "Switch to Windows-mode".
+>
+> When the device shows "FASTBOOT" text on screen, Press the Volume Down key until you see the wrench icon and QR code.
+>
+> WOA Device Manager will detect your phone in UFP mode
 
-### Boot UEFI
-> Boot into fastboot mode, then run the following command, replacing `path\to\xiaomi-miatoll_SecureBoot.img` with the actual path of UEFI
-```cmd
-fastboot boot path\to\xiaomi-miatoll_SecureBoot.img
-```
-> Press volume down button until you see the qr code and the wrench icon
-
-### Opening CMD as an admin
-> Download **FFU Tools** and extract the folder somewhere, then open CMD as an **administrator**.
-> 
-> Replace `path\to\FFU-Loader-Tools` with the actual path to the FFU-Loader-Tools folder, for example **C:\FFU-Loader-Tools**.
-```cmd
-cd path\to\FFU-Loader-Tools
-```
-
-### Flash FFU
-> Replace `path\to\miatoll.ffu` with the actual path to FFU file, for example **C:\miatoll_128GB_HalfSplit.ffu**
-```cmd
-ImageUtility.exe FlashDevice -Path path\to\miatoll.ffu
-```
-> Wait until FFU is flashed and green check mark appears
-
-### Reboot to Android
-```cmd
-ImageUtility.exe RebootDevice
-```
-> Set up your device, then go to the next step
+### Flashing the Windows FFU Image
+> Go to the "Flash" Section of the WOA Device Manager.
+>
+> Pick your FFU file and click "Flash FFU Image".
+>
+> Wait until the FFU is flashed and the green check mark appears.
+>
+> Then the phone should reboot to Android.
 
 ## [Next step: Setting up dualboot](dualboot-en.md)
