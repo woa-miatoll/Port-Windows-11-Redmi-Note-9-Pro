@@ -7,7 +7,7 @@
 ### Требования
 - [```ARM Windows ESD```](https://worproject.com/esd) (Выберите - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```Выберите ваш язык```)
 
-- [```Драйвера```](https://github.com/N1kroks/7xx-Drivers/releases/latest)
+- [```Драйвера```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest)
 
 - ```Мозги (Очень важно)```
 
