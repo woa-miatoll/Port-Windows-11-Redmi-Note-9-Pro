@@ -37,5 +37,5 @@
 ## Finished!
 
 > [!TIP]
-> Don't forget to check out [**```Useful apps and instructions```**](additional-materials-en.md
+> Don't forget to check out [**```Useful apps and instructions```**](additional-materials.md
 ) page. You'll find a guide on how to activate your Windows, as well as other helpful information.

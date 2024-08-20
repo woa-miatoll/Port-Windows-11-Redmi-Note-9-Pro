@@ -29,7 +29,7 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > [!Warning]
 > Do it only if necessary!
 
-> [Guide to disabling secureboot](disable-secureboot-en.md)
+> [Guide to disabling secureboot](disable-secureboot.md)
 
 #### Finished!
 

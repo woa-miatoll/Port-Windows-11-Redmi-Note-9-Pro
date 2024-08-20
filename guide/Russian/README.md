@@ -19,20 +19,20 @@
 ## Начнем
 - [Статус Проекта](/guide/Russian/status.md)
 
-- [Установка](/guide/Russian/installation-ru.md)
+- [Установка](/guide/Russian/installation.md)
 
-- [Исправление ошибок](/guide/Russian/troubleshooting-ru.md)
+- [Исправление ошибок](/guide/Russian/troubleshooting.md)
 
 ## Разное
-- [Настройка дуал бута](/guide/Russian/dualboot-ru.md)
+- [Настройка дуал бута](/guide/Russian/dualboot.md)
 
-- [Дополнительные материалы](/guide/Russian/additional-materials-ru.md)
+- [Дополнительные материалы](/guide/Russian/additional-materials.md)
 
-- [Обновление Драйверов](/guide/Russian/update-ru.md)
+- [Обновление Драйверов](/guide/Russian/update.md)
 
-- [Переустановка](/guide/Russian/reinstall-ru.md)
+- [Переустановка](/guide/Russian/reinstall.md)
 
-- [Удаление](/guide/Russian/restore-stock-ru.md)
+- [Удаление](/guide/Russian/restore-stock.md)
 
 ## Разработчики
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)

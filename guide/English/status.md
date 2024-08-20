@@ -10,6 +10,7 @@ Beta, Most of the hardware works, but some components do not work yet.
 #### Features
 
 - [ ] Audio
+- [ ] Microphone
 - [X] Battery status
 - [x] Bluetooth 
 - [X] Brightness
@@ -18,7 +19,8 @@ Beta, Most of the hardware works, but some components do not work yet.
 - [x] Display
 - [x] GPU
 - [X] LTE ```Only SIM 1```
-- [X] SD  ```Only if insert sd before OS boot and don't eject sd```
+- [X] SMS
+- [X] SD card  ```Only if insert sd card before OS boot and don't eject```
 - [X] Touchscreen
 - [x] UFS
 - [x] USB

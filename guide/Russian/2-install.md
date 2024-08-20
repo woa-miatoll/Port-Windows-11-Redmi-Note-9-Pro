@@ -79,4 +79,4 @@ bcdboot X:\Windows /s Y: /f UEFI
 adb reboot
 ```
 
-## [Последний шаг: Настройка Dualboot](dualboot-ru.md)
+## [Последний шаг: Настройка Dualboot](dualboot.md)

@@ -29,7 +29,7 @@
 > [!Warning]
 > Делайте это только в случае необходимости!
 
-> [Руководство по отключению secureboot](disable-secureboot-ru.md)
+> [Руководство по отключению secureboot](disable-secureboot.md)
 
 ## Установите Microsoft Office / Microsoft 365
 - Скачайте этот [файл](https://drive.google.com/file/d/10FTyC0XBccj0BkxdIa_W_haixQz-d3to/view?usp=drivesdk) на телефон

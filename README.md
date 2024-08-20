@@ -4,7 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woamiatoll)
 
 ## Choose your language
-**```English```**  | [```Русский```](/guide/Russian/README_RU.md)
+**```English```**  | [```Русский```](/guide/Russian/README.md)
 
 ## ⚠️ Warning
 We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
@@ -19,20 +19,20 @@ This project is in development stage, all the files here have been contributed b
 ## Get started
 - [Project status](guide/English/status.md)
 
-- [Installation instructions](guide/English/installation-en.md)
+- [Installation instructions](guide/English/installation.md)
 
-- [Troubleshooting](guide/English/troubleshooting-en.md)
+- [Troubleshooting](guide/English/troubleshooting.md)
 
 ## Miscellaneous
-- [Dualboot setup](guide/English/dualboot-en.md)
+- [Dualboot setup](guide/English/dualboot.md)
 
-- [Additional materials](guide/English/additional-materials-en.md)
+- [Additional materials](guide/English/additional-materials.md)
 
-- [Driver updating instructions](guide/English/update-en.md)
+- [Driver updating instructions](guide/English/update.md)
 
-- [Reinstall instructions](guide/English/reinstall-en.md)
+- [Reinstall instructions](guide/English/reinstall.md)
 
-- [Uninstall instructions](guide/English/restore-stock-en.md)
+- [Uninstall instructions](guide/English/restore-stock.md)
 
 ## Contributors
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
