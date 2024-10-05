@@ -5,7 +5,7 @@
 ## Установка Windows
 
 ### Требования
-- [```ARM Windows ESD```](https://worproject.com/esd) (Select - Version:  ```11``` Build:  ```22631.2861``` Architecture:  ```ARM64``` Edition:  ```CLIENT``` Language:  ```select your language```)
+- [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
 
 - [```Драйвера```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest)
 
