@@ -21,7 +21,7 @@ This project is in development stage, all the files here have been contributed b
 - [Troubleshooting](guide/troubleshooting.md)
 
 ## Miscellaneous
-- [Dualboot setup](guide/dualboot.md)
+- [Dualboot setup](guide/3-dualboot.md)
 
 - [Additional materials](guide/additional-materials.md)
 

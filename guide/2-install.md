@@ -79,4 +79,4 @@ bcdboot X:\Windows /s Y: /f UEFI
 adb reboot
 ```
 
-## [Last step: Setting up dualboot](dualboot.md)
+## [Last step: Setting up dualboot](3-dualboot.md)

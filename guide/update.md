@@ -7,21 +7,19 @@
 ### Prerequisites
 - [```Drivers```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest)
 
-### Boot into Windows
-> Flash the UEFI image in fastboot or use the WOA Helper app
+### Reboot phone to recovery
+> Reboot phone into recovery
+
+#### Execute the msc script
+```cmd
+adb shell msc
+```
 
 ### Installing Drivers
-> Unpack the driver archive on your Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro, then open the `OnlineUpdater.cmd` file
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> Follow any instructions provided on the screen
+> If it asks you to enter a letter, enter the drive letter of **MainOS** (which should be X), then press enter
 
 > If you see an error after installing **App Packages**, ignore it, and reboot your device manually after it says **Done!**
 
 ## Finished!
-
-
-
-
-
-
-
