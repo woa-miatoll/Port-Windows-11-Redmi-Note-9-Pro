@@ -55,7 +55,7 @@ exit
 
 ### Installing Windows
 > [!Warning]
-> DO NOT USE 24H2!!!
+> DO NOT USE 24H2 OR 25H2!!!
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim)
 ```cmd
