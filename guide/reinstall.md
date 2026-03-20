@@ -56,6 +56,11 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 
 > If any errors appear under **Installing App Packages**, ignore them and continue
 
+#### Create Windows bootloader files
+```cmd
+bcdboot X:\Windows /s Y: /f UEFI
+```
+
 ### Boot into Windows
 Reboot your phone. If you end up in Android instead of Windows, flash the UEFI again using WOA Helper.
 
